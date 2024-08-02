@@ -19,16 +19,16 @@ class Footer extends Component {
       <React.Fragment>
         <footer className="footer-area">
           <div className="footer-wrapper">
-            <div className="row align-items-end row--0">
+            <div className="row align-items-end row--0 bg_color--1">
               <div className="col-lg-6">
                 <div className="footer-left">
                   <div className="inner">
-                    <span>Ready To Do This</span>
+                    <span>Pronto para começar?</span>
                     <h2>
-                      Let's get <br /> to work
+                      Vamos<br/> planejar
                     </h2>
                     <a className="rn-button-style--2" href="/contact">
-                      <span>Contact Us</span>
+                      <span>Fale Conosco</span>
                     </a>
                   </div>
                 </div>
@@ -39,16 +39,16 @@ class Footer extends Component {
                     {/* Start Single Widget  */}
                     <div className="col-lg-6 col-sm-6 col-12">
                       <div className="footer-link">
-                        <h4>Quick Link</h4>
+                        <h4>Link rápido</h4>
                         <ul className="ft-link">
                           <li>
-                            <a href="/portfolio">Work</a>
+                            <a href="/">Início</a>
                           </li>
                           <li>
-                            <a href="/about">About</a>
+                            <a href="/about">Sobre</a>
                           </li>
                           <li>
-                            <a href="/contact">Let's Talk</a>
+                            <a href="/contact">Contato</a>
                           </li>
                         </ul>
                       </div>
@@ -57,11 +57,11 @@ class Footer extends Component {
                     {/* Start Single Widget  */}
                     <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">
                       <div className="footer-link">
-                        <h4>Say Hello</h4>
+                        <h4>Diga olá</h4>
                         <ul className="ft-link">
                           <li>
                             <a href="mailto:admin@example.com">
-                              admin@example.com
+                              email@example.com
                             </a>
                           </li>
                           <li>

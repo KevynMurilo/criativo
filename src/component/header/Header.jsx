@@ -66,80 +66,14 @@ class Header extends Component {
           <div className="header-right">
             <nav className="mainmenunav d-lg-block">
               <ul className="mainmenu">
-                <li className="has-droupdown">
-                  <Link to="#">Home</Link>
-                  <ul className="submenu">
-                    <li>
-                      <Link to="/main-demo">Main Demo</Link>
-                    </li>
-                    <li>
-                      <Link to="/dark-main-demo">Main Demo Dark</Link>
-                    </li>
-                    <li>
-                      <Link to="/creative-agency">Creative Agency</Link>
-                    </li>
-                    <li>
-                      <Link to="/creative-landing">Creative One Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/creative-portfolio">Creative Portfolio</Link>
-                    </li>
-                    <li>
-                      <Link to="/personal-portfolio">Personal Portfolio</Link>
-                    </li>
-                    <li>
-                      <Link to="/portfolio-landing">Portfolio One Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/dark-portfolio-landing">
-                        Portfolio One Page 02
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/digital-agency">Digital Agency</Link>
-                    </li>
-                    <li>
-                      <Link to="/startup">Startup</Link>
-                    </li>
-                    <li>
-                      <Link to="/paralax">Paralax</Link>
-                    </li>
-                    <li>
-                      <Link to="/portfolio-home">Minimal Portfolio</Link>
-                    </li>
-                    <li>
-                      <Link to="/business">Business</Link>
-                    </li>
-                    <li>
-                      <Link to="/home-particles">Home Particles</Link>
-                    </li>
-                    <li>
-                      <Link to="/studio-agency">Studio Agency</Link>
-                    </li>
-                    <li>
-                      <Link to="/designer-portfolio">Designer Portfolio</Link>
-                    </li>
-                    <li>
-                      <Link to="/interactive-agency">Interactive Agency</Link>
-                    </li>
-                    <li>
-                      <Link to="/interior-landing">Interior Landing</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="has-droupdown">
-                  <Link to="/service">Service</Link>
-                  <ul className="submenu">
-                    <li>
-                      <Link to="/service">Service</Link>
-                    </li>
-                    <li>
-                      <Link to="/service-details">Service Details</Link>
-                    </li>
-                  </ul>
+                <li>
+                  <Link to="/">Início</Link>
                 </li>
                 <li>
-                  <Link to="/about">About</Link>
+                  <Link to="/service-details">Serviços</Link>
+                </li>
+                <li>
+                  <Link to="/about">Sobre</Link>
                 </li>
 
                 <li className="has-droupdown">
@@ -152,7 +86,7 @@ class Header extends Component {
                       <Link to="/blog-details">Blog Details</Link>
                     </li>
                     <li>
-                      <Link to="/service">Service</Link>
+                      <Link to="/service">Serviços</Link>
                     </li>
                     <li>
                       <Link to="/service-details">Service Details</Link>
@@ -213,18 +147,10 @@ class Header extends Component {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/contact">Contato</Link>
                 </li>
               </ul>
             </nav>
-            <div className="header-btn">
-              <a
-                className="rn-btn"
-                href="https://themeforest.net/checkout/from_item/25457315?license=regular"
-              >
-                <span>buy now</span>
-              </a>
-            </div>
             {/* Start Humberger Menu  */}
             <div className="humberger-menu d-block d-lg-none pl--20">
               <span

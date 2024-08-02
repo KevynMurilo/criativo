@@ -17,23 +17,23 @@ class Accordion01 extends Component {
                 <AccordionItem >
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            Your Business Skills But Never Stop Improving.
+                            Minha Formação Acadêmica
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi doloribus eaque error est explicabo facilis fugit incidunt iste iure non nostrum officia, perspiciatis quidem quisquam rerum.</p>
+                        <p> Sou formada em ______ pela Universidade de ______, com especialização em ______ pela ______.</p>
                     </AccordionItemPanel>
                 </AccordionItem>
 
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            Tactics That Can Help Your Business Grow.
+                            Trajetória Profissional
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, porro, rerum. A amet, dolorum esse laboriosam Accusantium cum laborum nulla possimus. Repellat!
+                            Comecei minha carreira como ______ em ______, onde adquiri experiência em ______.
                         </p>
                     </AccordionItemPanel>
                 </AccordionItem>
@@ -41,12 +41,12 @@ class Accordion01 extends Component {
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            The Secret of Successful Business
+                            Hobbies
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <p>
-                            Ad aliquam dicta enim excepturi explicabo in ipsum iste iure natus perferendis placeat quae similique tempore totam veniam vero!
+                            Nos meus tempos livres, gosto de ______, ______ e ______.
                         </p>
                     </AccordionItemPanel>
                 </AccordionItem>
@@ -54,12 +54,12 @@ class Accordion01 extends Component {
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            How To Start A Business With Business
+                            Abordagem de Trabalho
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <p>
-                            Facilis fugiat hic ipsam iusto laudantium libero maiores minima molestiae mollitia repellat rerum sunt ullam voluptates? Perferendis, suscipit.
+                            Através de ______, ajudo meus clientes a ______ e alcançar seus ______.
                         </p>
                     </AccordionItemPanel>
                 </AccordionItem>

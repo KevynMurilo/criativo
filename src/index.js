@@ -58,6 +58,7 @@ import Columns from "./blocks/Columns";
 import PricingTable from "./blocks/PricingTable";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
+import ServiceEducacao from "./elements/ServiceEducacao";
 
 class Root extends Component {
   render() {
@@ -65,7 +66,7 @@ class Root extends Component {
       <BrowserRouter basename={"/"}>
         <PageScrollTop>
           <Switch>
-            <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo} />
+            <Route exact path={`${process.env.PUBLIC_URL}/`} component={CorporateBusiness} />
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/main-demo`}
@@ -173,6 +174,11 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/service-details`}
               component={ServiceDetails}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/service-educacao`}
+              component={ServiceEducacao}
             />
             <Route
               exact

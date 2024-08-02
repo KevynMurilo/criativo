@@ -21,14 +21,12 @@ class Testimonial extends Component {
                 <div className="rn-testimonial-content text-center">
                   <div className="inner">
                     <p>
-                      Aklima The standard chunk of Lorem Ipsum used since the
-                      1500s is reproduced below for those interested. Sections
-                      Bonorum et Malorum original.
+                      Os serviços financeiros fornecidos pela empresa foram excepcionais e atenderam todas as minhas necessidades.
                     </p>
                   </div>
                   <div className="author-info">
                     <h6>
-                      <span>Aklima </span> - COO, AMERIMAR ENTERPRISES, INC.
+                      <span>João Silva</span> - Gerente Financeiro
                     </h6>
                   </div>
                 </div>
@@ -38,15 +36,12 @@ class Testimonial extends Component {
                 <div className="rn-testimonial-content text-center">
                   <div className="inner">
                     <p>
-                      Fatima Asrafy standard chunk of Lorem Ipsum used since the
-                      1500s is reproduced below for those interested. Sections
-                      Bonorum et Malorum original.
+                      A consultoria financeira que recebi foi excelente e me ajudou a alcançar meus objetivos.
                     </p>
                   </div>
                   <div className="author-info">
                     <h6>
-                      <span>Fatima Asrafy </span> - COO, AMERIMAR ENTERPRISES,
-                      INC.
+                      <span>Pedro Lima</span> - Diretor Financeiro
                     </h6>
                   </div>
                 </div>
@@ -55,15 +50,12 @@ class Testimonial extends Component {
                 <div className="rn-testimonial-content text-center">
                   <div className="inner">
                     <p>
-                      Jannat Tumpa The standard chunk of Lorem Ipsum used since
-                      the 1500s is reproduced below for those interested.
-                      Sections Bonorum et Malorum original.
+                      A equipe de finanças foi muito profissional e me orientou de maneira eficaz.
                     </p>
                   </div>
                   <div className="author-info">
                     <h6>
-                      <span>Jannat Tumpa </span> - COO, AMERIMAR ENTERPRISES,
-                      INC.
+                      <span>Lucas Fernandes</span> - CEO
                     </h6>
                   </div>
                 </div>
@@ -73,14 +65,12 @@ class Testimonial extends Component {
                 <div className="rn-testimonial-content text-center">
                   <div className="inner">
                     <p>
-                      Standard chunk of Lorem Ipsum used since the 1500s is
-                      reproduced below for those interested. Sections Bonorum et
-                      Malorum original.
+                      Fiquei impressionada com a profundidade do conhecimento financeiro da equipe.
                     </p>
                   </div>
                   <div className="author-info">
                     <h6>
-                      <span>Johns Due </span> - COO, AMERIMAR ENTERPRISES, INC.
+                      <span>Maria Oliveira</span> - CFO
                     </h6>
                   </div>
                 </div>
@@ -89,47 +79,12 @@ class Testimonial extends Component {
                 <div className="rn-testimonial-content text-center">
                   <div className="inner">
                     <p>
-                      John Doe The standard chunk of Lorem Ipsum used since the
-                      1500s is reproduced below for those interested. Sections
-                      Bonorum et Malorum original.
+                      A consultoria prestada foi essencial para melhorar a saúde financeira da minha empresa.
                     </p>
                   </div>
                   <div className="author-info">
                     <h6>
-                      <span>John Doe </span> - COO, AMERIMAR ENTERPRISES, INC.
-                    </h6>
-                  </div>
-                </div>
-              </TabPanel>
-
-              <TabPanel>
-                <div className="rn-testimonial-content text-center">
-                  <div className="inner">
-                    <p>
-                      Chunk of Lorem Ipsum used since the 1500s is reproduced
-                      below for those interested. Sections Bonorum et Malorum
-                      original.
-                    </p>
-                  </div>
-                  <div className="author-info">
-                    <h6>
-                      <span>Amar Orthi </span> - COO, AMERIMAR ENTERPRISES, INC.
-                    </h6>
-                  </div>
-                </div>
-              </TabPanel>
-              <TabPanel>
-                <div className="rn-testimonial-content text-center">
-                  <div className="inner">
-                    <p>
-                      The standard chunk of Lorem Ipsum used since the 1500s is
-                      reproduced below for those interested. Sections Bonorum et
-                      Malorum original.
-                    </p>
-                  </div>
-                  <div className="author-info">
-                    <h6>
-                      <span>Fatima Ma </span> - COO, AMERIMAR ENTERPRISES, INC.
+                      <span>Ana Souza</span> - Controller
                     </h6>
                   </div>
                 </div>
@@ -139,14 +94,41 @@ class Testimonial extends Component {
                 <div className="rn-testimonial-content text-center">
                   <div className="inner">
                     <p>
-                      Lorem Ipsum used since the 1500s is reproduced below for
-                      those interested. Sections Bonorum et Malorum original.
+                      O suporte financeiro contínuo tem sido vital para o crescimento sustentável do nosso negócio.
                     </p>
                   </div>
                   <div className="author-info">
                     <h6>
-                      <span>JON CUMMINS </span> - COO, AMERIMAR ENTERPRISES,
-                      INC.
+                      <span>Carlos Mendes</span> - Analista Financeiro
+                    </h6>
+                  </div>
+                </div>
+              </TabPanel>
+              <TabPanel>
+                <div className="rn-testimonial-content text-center">
+                  <div className="inner">
+                    <p>
+                      A parceria financeira com a empresa nos deu a confiança para expandir nossas operações.
+                    </p>
+                  </div>
+                  <div className="author-info">
+                    <h6>
+                      <span>Fernanda Ribeiro</span> - Consultora Financeira
+                    </h6>
+                  </div>
+                </div>
+              </TabPanel>
+
+              <TabPanel>
+                <div className="rn-testimonial-content text-center">
+                  <div className="inner">
+                    <p>
+                      O conhecimento técnico e a experiência da equipe financeira foram cruciais para o nosso sucesso.
+                    </p>
+                  </div>
+                  <div className="author-info">
+                    <h6>
+                      <span>Julia Santos</span> - Diretora de Investimentos
                     </h6>
                   </div>
                 </div>
@@ -217,4 +199,5 @@ class Testimonial extends Component {
     );
   }
 }
+
 export default Testimonial;
