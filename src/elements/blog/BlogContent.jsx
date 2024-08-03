@@ -8,31 +8,37 @@ const BlogContent = [
     images: blog1,
     title: "Estratégias para Investimentos de Sucesso",
     category: "Investimentos",
+    link: "/blog-estrategia"
   },
   {
     images: blog2,
     title: "Como Gerenciar Seu Patrimônio",
     category: "Gestão Financeira",
+    link: "/blog-estrategia"
   },
   {
     images: blog3,
     title: "Tendências Econômicas Atuais",
     category: "Economia",
+    link: "/blog-estrategia"
   },
   {
     images: blog4,
     title: "Dicas para Aposentadoria Financeira",
     category: "Planejamento",
+    link: "/blog-estrategia"
   },
   {
     images: blog1,
     title: "Análise de Mercado: O Que Esperar",
     category: "Investimentos",
+    link: "/blog-estrategia"
   },
   {
     images: blog2,
     title: "Estratégias de Poupança Eficazes",
     category: "Gestão Financeira",
+    link: "/blog-estrategia"
   },
 ];
 

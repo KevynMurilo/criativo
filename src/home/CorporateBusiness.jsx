@@ -7,7 +7,6 @@ import BlogContent from "../elements/blog/BlogContent";
 import Header from "../component/header/HeaderFive";
 import FooterTwo from "../component/footer/FooterTwo";
 import CallAction from "../elements/callaction/CallAction";
-import Team from "../blocks/team/TeamTwo";
 import Accordion01 from "../elements/Accordion";
 import Helmet from "../component/common/Helmet";
 import corporate01 from "../assets/images/featured/corporate-01.jpg";
@@ -16,13 +15,10 @@ import corporate03 from "../assets/images/featured/corporate-03.jpg";
 
 import {
   FiLayers,
-  FiUsers,
   FiChevronUp,
   FiCheck,
   FiSmartphone 
 } from "react-icons/fi";
-import CounterOne from "../elements/counters/CounterOne";
-import BrandOne from "../elements/Brand";
 
 import about from "../assets/images/about/about.jpg";
 import about2 from "../assets/images/about/about-3.png";
@@ -54,20 +50,21 @@ const ServiceListOne = [
   {
     icon: <FiLayers />,
     title: "Educação Financeira",
-    description:
-      "Oferecemos educação financeira para que você possa entender e otimizar suas finanças pessoais com segurança.",
+    description: "Oferecemos educação financeira para que você possa entender e otimizar suas finanças pessoais com segurança.",
+    link: "/service-educacao"
+    
   },
   {
     icon: <FiSmartphone />,
     title: "Planejamento Seguro",
-    description:
-      "Serviços de consultoria para garantir que sua família esteja protegida e você tenha um futuro promissor, sem perdas e de forma vitalícia.",
+    description: "Serviços de consultoria para garantir que sua família esteja protegida e você tenha um futuro promissor, sem perdas e de forma vitalícia.",
+    link: "/service-details"
   },
   {
     icon: <FiSmartphone />,
     title: "Aposentadoria",
-    description:
-      "Oferecemos produtos para aposentadoria com renda garantida e regulada pelo governo federal.",
+    description: "Oferecemos produtos para aposentadoria com renda garantida e regulada pelo governo federal.",
+    link: "/service-details"
   },
 ];
 
@@ -81,14 +78,12 @@ const starndardService = [
   {
     image: corporate02,
     title: "Planejamento Seguro",
-    description:
-      "Serviços de consultoria para garantir que sua família esteja protegida e você tenha um futuro promissor, sem perdas e de forma vitalícia.",
+    description: "Serviços de consultoria para garantir que sua família esteja protegida e você tenha um futuro promissor, sem perdas e de forma vitalícia.",
   },
   {
     image: corporate03,
     title: "Aposentadoria",
-    description:
-      "Oferecemos produtos para aposentadoria com renda garantida e regulada pelo governo federal.",
+    description: "Oferecemos produtos para aposentadoria com renda garantida e regulada pelo governo federal.",
   },
 ];
 
@@ -187,7 +182,7 @@ class CorporateBusiness extends Component {
                   className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
                   key={i}
                 >
-                  <a className="text-center" href="/service-educacao">
+                  <a className="text-center" href={val.link}>
                     <div className="service service__style--2">
                       <div className="icon">{val.icon}</div>
                       <div className="content">
@@ -381,7 +376,7 @@ class CorporateBusiness extends Component {
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
                   <div className="blog blog-style--1">
                     <div className="thumbnail">
-                      <a href="/blog-details">
+                      <a href={value.link}>
                         <img
                           className="w-100"
                           src={value.images}
@@ -392,10 +387,10 @@ class CorporateBusiness extends Component {
                     <div className="content">
                       <p className="blogtype">{value.category}</p>
                       <h4 className="title">
-                        <a href="/blog-details">{value.title}</a>
+                        <a href={value.link}>{value.title}</a>
                       </h4>
                       <div className="blog-btn">
-                        <a className="rn-btn text-white" href="/blog-details">
+                        <a className="rn-btn text-white" href={value.link}>
                           Leia mais
                         </a>
                       </div>

@@ -16,7 +16,7 @@ class Blog extends Component{
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
                 {/* Start Breadcrump Area */}
-                <Breadcrumb title={'Blog List'}   />
+                <Breadcrumb title={'Últimas Postagens'}   />
                 {/* End Breadcrump Area */}
 
 

@@ -40,6 +40,7 @@ import Contact from "./elements/Contact";
 import PortfolioDetails from "./elements/PortfolioDetails";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
+import BlogEstrategia from "./elements/BlogEstrategia";
 import error404 from "./elements/error404";
 
 // Blocks Layout
@@ -204,6 +205,11 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/blog-details`}
               component={BlogDetails}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/blog-estrategia`}
+              component={BlogEstrategia}
             />
 
             {/* Blocks Elements  */}

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import { FiHeadphones , FiMail , FiMapPin } from "react-icons/fi";
-import GoogleMapReact from 'google-map-react';
 import ContactTwo from "../elements/contact/ContactTwo";
 import BrandTwo from "../elements/BrandTwo";
 import ScrollToTop from 'react-scroll-up';
@@ -12,14 +11,6 @@ import Footer from "../component/footer/Footer";
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class Contact extends Component{
-    static defaultProps = {
-        center: {
-            lat: 25.7617,
-            lng: -80.1918
-        },
-        zoom: 11
-    };
-
     render(){
         return(
             <React.Fragment>
@@ -108,17 +99,15 @@ class Contact extends Component{
                 {/* Start Contact Map  */}
                 <div className="rn-contact-map-area position-relative">
                     <div style={{ height: '650px', width: '100%' }}>
-                        <GoogleMapReact
-                        defaultCenter={this.props.center}
-                        defaultZoom={this.props.zoom}
-                        // bootstrapURLKeys={{ key: 'chave_api' }}
-                        >
-                        <AnyReactComponent
-                            lat={59.955413}
-                            lng={30.337844}
-                            text="My Marker"
-                        />
-                        </GoogleMapReact>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57193.091802025076!2d-80.15856501117999!3d26.372823504892946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d923c2ef36fb27%3A0xd23ea6eeca6095c9!2sBoca%20Raton%2C%20Fl%C3%B3rida%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1722631677440!5m2!1spt-BR!2sbr"
+                            width="100%"
+                            height="650"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
                 </div>
                 {/* End Contact Map  */}
