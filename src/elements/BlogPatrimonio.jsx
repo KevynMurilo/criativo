@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from "react-modal-video";
-import { FiClock, FiUser, FiMessageCircle, FiHeart, FiChevronUp } from "react-icons/fi";
+import { FiClock, FiUser, FiMessageCircle, FiHeart } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
+import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
-import imgOne from "../assets/images/blog/bl-big-01.jpg";
-import imgTwo from "../assets/images/blog/blog-single-01.png";
+import imgOne from "../assets/images/blog/bl-big-02.jpg";
+import imgTwo from "../assets/images/blog/blog-single-02.jpg";
 
-class BlogEstrategia extends Component {
+class BlogPatrimonio extends Component {
   constructor() {
     super();
     this.state = {
@@ -18,22 +19,20 @@ class BlogEstrategia extends Component {
     };
     this.openModal = this.openModal.bind(this);
   }
-
   openModal() {
     this.setState({ isOpen: true });
   }
-
   render() {
     return (
       <React.Fragment>
-        <PageHelmet pageTitle="Estratégias para o Investimento de Sucesso" />
+        <PageHelmet pageTitle="Blog Details" />
         <Header
           headertransparent="header--transparent"
           colorblack="color--black"
           logoname="logo.png"
         />
 
-        {/* Start Breadcrump Area */}
+        {/* Start Breadcrumb Area */}
         <div
           className="rn-page-title-area pt--120 pb--190 bg_image bg_image--7"
           data-black-overlay="7"
@@ -43,20 +42,24 @@ class BlogEstrategia extends Component {
               <div className="col-lg-12">
                 <div className="blog-single-page-title text-center pt--100">
                   <h2 className="title theme-gradient">
-                    Estratégias para o Investimento de Sucesso
+                    Como Gerenciar Seu Patrimônio
                   </h2>
                   <ul className="blog-meta d-flex justify-content-center align-items-center">
                     <li>
-                      <FiClock /> 2 de agosto de 2024
+                      <FiClock />
+                      18 de Maio, 2024
                     </li>
                     <li>
-                      <FiUser /> Luiza Simazaki
+                      <FiUser />
+                        Luiza Simazaki
                     </li>
                     <li>
-                      <FiMessageCircle /> 15 Comentários
+                      <FiMessageCircle />
+                      15 Comentários
                     </li>
                     <li>
-                      <FiHeart />32 Curtidas
+                      <FiHeart />
+                      32 Curtidas
                     </li>
                   </ul>
                 </div>
@@ -64,7 +67,7 @@ class BlogEstrategia extends Component {
             </div>
           </div>
         </div>
-        {/* End Breadcrump Area */}
+        {/* End Breadcrumb Area */}
 
         {/* Start Blog Details */}
         <div className="rn-blog-details pt--110 pb--70 bg_color--1">
@@ -74,43 +77,54 @@ class BlogEstrategia extends Component {
                 <div className="inner-wrapper">
                   <div className="inner">
                     <p>
-                      O investimento de sucesso não é apenas sobre sorte. Envolve pesquisa, planejamento estratégico e uma compreensão clara dos mercados. Aqui estão algumas estratégias comprovadas que podem ajudá-lo a alcançar o sucesso em seus investimentos.
+                      Gerenciar seu patrimônio de forma eficaz é essencial para garantir um futuro financeiro estável. Aqui estão algumas dicas práticas para ajudar você a começar.
                     </p>
                     <div className="thumbnail">
                       <img src={imgOne} alt="Blog Images" />
                     </div>
                     <p className="mt--40">
-                      Primeiramente, diversifique seu portfólio. Não coloque todos os ovos em uma única cesta. Investir em diferentes classes de ativos pode ajudar a mitigar riscos e maximizar retornos.
+                      A diversificação de investimentos é uma das estratégias mais recomendadas por especialistas. Ao espalhar seus investimentos em diferentes tipos de ativos, você reduz os riscos e aumenta suas chances de retornos positivos.
                     </p>
                     <p>
-                      Além disso, é essencial manter-se informado sobre as tendências de mercado e eventos econômicos que podem impactar seus investimentos. A educação contínua e a adaptação às mudanças são cruciais.
+                      Outro ponto crucial é a importância de um orçamento bem elaborado. Conhecer suas receitas e despesas permite identificar áreas onde é possível economizar e investir mais.
                     </p>
                     <blockquote className="rn-blog-quote">
-                      "A diversificação é a única estratégia gratuita de mitigação de riscos que os investidores têm à disposição." - Warren Buffett
+                      "Planejamento financeiro é sobre equilibrar suas necessidades atuais com suas metas futuras." - Anônimo
                     </blockquote>
                     <p>
-                      Outra dica é definir metas claras e realistas. Saber o que você quer alcançar com seus investimentos pode ajudá-lo a tomar decisões mais informadas e disciplinadas.
+                      Manter-se informado sobre o mercado financeiro também é vital. Leia livros, acompanhe notícias e, se possível, consulte um consultor financeiro para orientações personalizadas.
                     </p>
                     <div className="blog-single-list-wrapper d-flex flex-wrap">
                       <div className="thumbnail">
                         <img className="w-100" src={imgTwo} alt="Blog Images" />
                         <span>
-                          Monitoramento constante e reavaliação de estratégias são fundamentais.
+                          Educação financeira é a chave para um futuro seguro.
                         </span>
                       </div>
                       <div className="content">
-                        <h4 className="title">Dicas Práticas:</h4>
+                        <p>
+                          Gerenciar suas finanças não é uma tarefa fácil, mas com dedicação e as ferramentas certas, é possível construir um patrimônio sólido e sustentável.
+                        </p>
+                        <h4 className="title">Dicas de Gerenciamento:</h4>
                         <ul className="list-style">
-                          <li>Invista regularmente, mesmo que sejam pequenos montantes.</li>
-                          <li>Reinvista seus dividendos e juros para acelerar o crescimento.</li>
-                          <li>Evite tomar decisões impulsivas baseadas em emoções.</li>
-                          <li>Considere os custos e taxas associados a cada investimento.</li>
-                          <li>Faça uso de ferramentas e consultoria financeira, se necessário.</li>
+                          <li>Defina metas financeiras claras e alcançáveis.</li>
+                          <li>Crie e mantenha um orçamento mensal.</li>
+                          <li>Invista em uma educação financeira contínua.</li>
+                          <li>Diversifique seus investimentos.</li>
+                          <li>Consulte profissionais quando necessário.</li>
+                        </ul>
+                        <h4 className="title">Benefícios de um Bom Gerenciamento:</h4>
+                        <ul className="list-style">
+                          <li>Maior segurança financeira.</li>
+                          <li>Capacidade de lidar com imprevistos.</li>
+                          <li>Aumento do patrimônio ao longo do tempo.</li>
+                          <li>Tranquilidade e menos estresse financeiro.</li>
                         </ul>
                       </div>
                     </div>
+
                     <p className="mt--25 mt_sm--5">
-                      Lembre-se de que o sucesso no investimento não acontece da noite para o dia. Requer paciência, diligência e uma abordagem disciplinada. Com as estratégias certas, você pode construir um portfólio robusto e atingir seus objetivos financeiros.
+                      Com essas dicas, você estará no caminho certo para gerenciar seu patrimônio de maneira eficiente e alcançar suas metas financeiras.
                     </p>
                     <div className="video-wrapper position-relative mb--40">
                       <div className="thumbnail">
@@ -130,7 +144,7 @@ class BlogEstrategia extends Component {
                       </button>
                     </div>
                     <p className="mb--0">
-                      Esperamos que estas dicas ajudem você a trilhar um caminho de sucesso em seus investimentos. Continue aprendendo e ajustando suas estratégias conforme necessário.
+                      Lembre-se, a chave para o sucesso financeiro é a disciplina e a educação contínua. Com o tempo, você verá os frutos do seu esforço.
                     </p>
                   </div>
                 </div>
@@ -201,4 +215,4 @@ class BlogEstrategia extends Component {
   }
 }
 
-export default BlogEstrategia;
+export default BlogPatrimonio;

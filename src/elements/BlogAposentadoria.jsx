@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from "react-modal-video";
-import { FiClock, FiUser, FiMessageCircle, FiHeart, FiChevronUp } from "react-icons/fi";
+import { FiClock, FiUser, FiMessageCircle, FiHeart } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
+import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
-import imgOne from "../assets/images/blog/bl-big-01.jpg";
-import imgTwo from "../assets/images/blog/blog-single-01.png";
+import imgOne from "../assets/images/blog/bl-big-04.jpg";
+import imgTwo from "../assets/images/blog/blog-single-04.jpg";
 
-class BlogEstrategia extends Component {
+class BlogAposentadoria extends Component {
   constructor() {
     super();
     this.state = {
@@ -18,22 +19,22 @@ class BlogEstrategia extends Component {
     };
     this.openModal = this.openModal.bind(this);
   }
-
+  
   openModal() {
     this.setState({ isOpen: true });
   }
-
+  
   render() {
     return (
       <React.Fragment>
-        <PageHelmet pageTitle="Estratégias para o Investimento de Sucesso" />
+        <PageHelmet pageTitle="Dicas para Aposentadoria Financeira" />
         <Header
           headertransparent="header--transparent"
           colorblack="color--black"
           logoname="logo.png"
         />
 
-        {/* Start Breadcrump Area */}
+        {/* Start Breadcrumb Area */}
         <div
           className="rn-page-title-area pt--120 pb--190 bg_image bg_image--7"
           data-black-overlay="7"
@@ -43,20 +44,24 @@ class BlogEstrategia extends Component {
               <div className="col-lg-12">
                 <div className="blog-single-page-title text-center pt--100">
                   <h2 className="title theme-gradient">
-                    Estratégias para o Investimento de Sucesso
+                    Dicas para Aposentadoria Financeira
                   </h2>
                   <ul className="blog-meta d-flex justify-content-center align-items-center">
                     <li>
-                      <FiClock /> 2 de agosto de 2024
+                      <FiClock />
+                      August 5, 2024
                     </li>
                     <li>
-                      <FiUser /> Luiza Simazaki
+                      <FiUser />
+                      Luiza Simazaki
                     </li>
                     <li>
-                      <FiMessageCircle /> 15 Comentários
+                      <FiMessageCircle />
+                      5 Comentários
                     </li>
                     <li>
-                      <FiHeart />32 Curtidas
+                      <FiHeart />
+                      47 Curtidas
                     </li>
                   </ul>
                 </div>
@@ -64,7 +69,7 @@ class BlogEstrategia extends Component {
             </div>
           </div>
         </div>
-        {/* End Breadcrump Area */}
+        {/* End Breadcrumb Area */}
 
         {/* Start Blog Details */}
         <div className="rn-blog-details pt--110 pb--70 bg_color--1">
@@ -74,43 +79,43 @@ class BlogEstrategia extends Component {
                 <div className="inner-wrapper">
                   <div className="inner">
                     <p>
-                      O investimento de sucesso não é apenas sobre sorte. Envolve pesquisa, planejamento estratégico e uma compreensão clara dos mercados. Aqui estão algumas estratégias comprovadas que podem ajudá-lo a alcançar o sucesso em seus investimentos.
+                      Planejar a aposentadoria é essencial para garantir uma aposentadoria tranquila e sem preocupações financeiras. A seguir, apresentamos algumas dicas importantes para ajudá-lo a preparar seu futuro financeiro.
                     </p>
                     <div className="thumbnail">
                       <img src={imgOne} alt="Blog Images" />
                     </div>
                     <p className="mt--40">
-                      Primeiramente, diversifique seu portfólio. Não coloque todos os ovos em uma única cesta. Investir em diferentes classes de ativos pode ajudar a mitigar riscos e maximizar retornos.
+                      Comece a economizar cedo. Quanto mais cedo você começar a poupar, mais tempo seu dinheiro terá para crescer. Aproveite os benefícios dos juros compostos e estabeleça uma rotina de poupança regular.
                     </p>
                     <p>
-                      Além disso, é essencial manter-se informado sobre as tendências de mercado e eventos econômicos que podem impactar seus investimentos. A educação contínua e a adaptação às mudanças são cruciais.
+                      Diversifique seus investimentos. Não coloque todos os seus recursos em um único tipo de investimento. Explore diferentes opções, como ações, títulos e fundos imobiliários, para equilibrar riscos e retornos.
                     </p>
                     <blockquote className="rn-blog-quote">
-                      "A diversificação é a única estratégia gratuita de mitigação de riscos que os investidores têm à disposição." - Warren Buffett
+                      "A melhor maneira de prever o futuro é criá-lo." - Peter Drucker
                     </blockquote>
                     <p>
-                      Outra dica é definir metas claras e realistas. Saber o que você quer alcançar com seus investimentos pode ajudá-lo a tomar decisões mais informadas e disciplinadas.
+                      Revise seu plano de aposentadoria regularmente. As circunstâncias e os objetivos podem mudar ao longo do tempo, por isso é importante revisar e ajustar seu plano conforme necessário.
                     </p>
                     <div className="blog-single-list-wrapper d-flex flex-wrap">
                       <div className="thumbnail">
                         <img className="w-100" src={imgTwo} alt="Blog Images" />
                         <span>
-                          Monitoramento constante e reavaliação de estratégias são fundamentais.
+                          Dicas para uma aposentadoria segura e confortável
                         </span>
                       </div>
                       <div className="content">
-                        <h4 className="title">Dicas Práticas:</h4>
+                        <h4 className="title">Dicas Essenciais:</h4>
                         <ul className="list-style">
-                          <li>Invista regularmente, mesmo que sejam pequenos montantes.</li>
-                          <li>Reinvista seus dividendos e juros para acelerar o crescimento.</li>
-                          <li>Evite tomar decisões impulsivas baseadas em emoções.</li>
-                          <li>Considere os custos e taxas associados a cada investimento.</li>
-                          <li>Faça uso de ferramentas e consultoria financeira, se necessário.</li>
+                          <li>Defina metas claras de aposentadoria.</li>
+                          <li>Considere planos de previdência privada.</li>
+                          <li>Elabore um orçamento e controle seus gastos.</li>
+                          <li>Consulte um planejador financeiro para obter orientação especializada.</li>
                         </ul>
                       </div>
                     </div>
+
                     <p className="mt--25 mt_sm--5">
-                      Lembre-se de que o sucesso no investimento não acontece da noite para o dia. Requer paciência, diligência e uma abordagem disciplinada. Com as estratégias certas, você pode construir um portfólio robusto e atingir seus objetivos financeiros.
+                      Ao seguir essas dicas, você estará no caminho certo para garantir uma aposentadoria tranquila e segura. Lembre-se de que o planejamento financeiro é um processo contínuo e deve ser adaptado conforme suas necessidades e objetivos evoluem.
                     </p>
                     <div className="video-wrapper position-relative mb--40">
                       <div className="thumbnail">
@@ -130,7 +135,7 @@ class BlogEstrategia extends Component {
                       </button>
                     </div>
                     <p className="mb--0">
-                      Esperamos que estas dicas ajudem você a trilhar um caminho de sucesso em seus investimentos. Continue aprendendo e ajustando suas estratégias conforme necessário.
+                      Continue se educando sobre finanças e aposentadoria para tomar decisões informadas e eficazes. Uma boa preparação agora pode resultar em uma aposentadoria mais confortável no futuro.
                     </p>
                   </div>
                 </div>
@@ -201,4 +206,4 @@ class BlogEstrategia extends Component {
   }
 }
 
-export default BlogEstrategia;
+export default BlogAposentadoria;

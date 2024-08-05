@@ -62,6 +62,9 @@ import * as serviceWorker from "./serviceWorker";
 import ServiceEducacao from "./elements/ServiceEducacao";
 import ServicePlanejamento from "./elements/ServicePlanejamento";
 import ServiceAposentadoria from "./elements/ServiceAposentadoria";
+import BlogPatrimonio from "./elements/BlogPatrimonio";
+import BlogEconomia from "./elements/BlogEconomia";
+import BlogAposentadoria from "./elements/BlogAposentadoria";
 
 class Root extends Component {
   render() {
@@ -222,6 +225,21 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/blog-estrategia`}
               component={BlogEstrategia}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/blog-patrimonio`}
+              component={BlogPatrimonio}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/blog-economia`}
+              component={BlogEconomia}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/blog-aposentadoria`}
+              component={BlogAposentadoria}
             />
 
             {/* Blocks Elements  */}
