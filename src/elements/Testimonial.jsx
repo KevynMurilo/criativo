@@ -50,7 +50,7 @@ class Testimonial extends Component {
                 <div className="rn-testimonial-content text-center">
                   <div className="inner">
                     <p>
-                      A equipe de finanças foi muito profissional e me orientou de maneira eficaz.
+                      A Luiza foi muito profissional e me orientou de maneira eficaz.
                     </p>
                   </div>
                   <div className="author-info">
@@ -65,7 +65,7 @@ class Testimonial extends Component {
                 <div className="rn-testimonial-content text-center">
                   <div className="inner">
                     <p>
-                      Fiquei impressionada com a profundidade do conhecimento financeiro da equipe.
+                      Fiquei impressionada com a profundidade do conhecimento financeiro da Luiza.
                     </p>
                   </div>
                   <div className="author-info">
@@ -84,7 +84,7 @@ class Testimonial extends Component {
                   </div>
                   <div className="author-info">
                     <h6>
-                      <span>Ana Souza</span> - Controller
+                      <span>Ana Souza</span> - Diretor Financeiro
                     </h6>
                   </div>
                 </div>

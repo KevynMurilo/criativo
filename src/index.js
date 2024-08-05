@@ -60,6 +60,8 @@ import PricingTable from "./blocks/PricingTable";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 import ServiceEducacao from "./elements/ServiceEducacao";
+import ServicePlanejamento from "./elements/ServicePlanejamento";
+import ServiceAposentadoria from "./elements/ServiceAposentadoria";
 
 class Root extends Component {
   render() {
@@ -180,6 +182,16 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/service-educacao`}
               component={ServiceEducacao}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/service-planejamento`}
+              component={ServicePlanejamento}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/service-aposentadoria`}
+              component={ServiceAposentadoria}
             />
             <Route
               exact

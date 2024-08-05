@@ -21,19 +21,32 @@ class Accordion01 extends Component {
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                        <p> Sou formada em ______ pela Universidade de ______, com especialização em ______ pela ______.</p>
+                        <p> Tenho 2 graduações e 1 MBA na área educacional.</p>
                     </AccordionItemPanel>
                 </AccordionItem>
 
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            Trajetória Profissional
+                            Abordagem de Trabalho
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <p>
-                            Comecei minha carreira como ______ em ______, onde adquiri experiência em ______.
+                            Meu trabalho é individualizado e extremamente sigiloso, visando melhor atender às necessidades do cliente e sua família.
+                        </p>
+                    </AccordionItemPanel>
+                </AccordionItem>
+
+                <AccordionItem>
+                    <AccordionItemHeading>
+                        <AccordionItemButton>
+                            Afiliada
+                        </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                        <p>
+                            Sou associada à 5 Rings Financial, que atua na indústria financeira há mais de 20 anos e representa empresas com mais de 150 anos no setor. O CEO da empresa é Mike Wilk, e a sede está localizada em Denver, Colorado.
                         </p>
                     </AccordionItemPanel>
                 </AccordionItem>
@@ -46,24 +59,10 @@ class Accordion01 extends Component {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <p>
-                            Nos meus tempos livres, gosto de ______, ______ e ______.
+                            Yoga, natação e dançar.
                         </p>
                     </AccordionItemPanel>
                 </AccordionItem>
-
-                <AccordionItem>
-                    <AccordionItemHeading>
-                        <AccordionItemButton>
-                            Abordagem de Trabalho
-                        </AccordionItemButton>
-                    </AccordionItemHeading>
-                    <AccordionItemPanel>
-                        <p>
-                            Através de ______, ajudo meus clientes a ______ e alcançar seus ______.
-                        </p>
-                    </AccordionItemPanel>
-                </AccordionItem>
-
             </Accordion>
         )
     }

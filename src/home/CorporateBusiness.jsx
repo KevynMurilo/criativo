@@ -12,6 +12,7 @@ import Helmet from "../component/common/Helmet";
 import corporate01 from "../assets/images/featured/corporate-01.jpg";
 import corporate02 from "../assets/images/featured/corporate-02.jpg";
 import corporate03 from "../assets/images/featured/corporate-03.jpg";
+import { FaChalkboardTeacher, FaShieldAlt, FaUmbrella } from "react-icons/fa";
 
 import {
   FiLayers,
@@ -48,23 +49,23 @@ const SlideList = [
 
 const ServiceListOne = [
   {
-    icon: <FiLayers />,
+    icon: <FaChalkboardTeacher />,
     title: "Educação Financeira",
     description: "Oferecemos educação financeira para que você possa entender e otimizar suas finanças pessoais com segurança.",
     link: "/service-educacao"
     
   },
   {
-    icon: <FiSmartphone />,
+    icon: <FaShieldAlt />,
     title: "Planejamento Seguro",
     description: "Serviços de consultoria para garantir que sua família esteja protegida e você tenha um futuro promissor, sem perdas e de forma vitalícia.",
-    link: "/service-details"
+    link: "/service-planejamento"
   },
   {
-    icon: <FiSmartphone />,
+    icon: <FaUmbrella  />,
     title: "Aposentadoria",
     description: "Oferecemos produtos para aposentadoria com renda garantida e regulada pelo governo federal.",
-    link: "/service-details"
+    link: "/service-aposentadoria"
   },
 ];
 
@@ -116,7 +117,7 @@ class CorporateBusiness extends Component {
 
     return (
       <Fragment>
-        <Helmet pageTitle="Corporate Business" />
+        <Helmet pageTitle="Início" />
 
         {/* Start Header Area  */}
         <Header
@@ -197,64 +198,6 @@ class CorporateBusiness extends Component {
           </div>
         </div>
         {/* End Service Area */}
-
-        {/* Start Featured Service Area  */}
-        <div className="rn-featured-service-area pt--90 pb--120 bg_color--5">
-          <div className="container">
-            <div className="row">
-              {/* Start Single Service  */}
-              <div className="col-lg-3 col-md-6 col-12 mt--30">
-                <div className="section-title">
-                  <h2 className="title">Serviços</h2>
-                  <p>
-                    Oferecemos uma gama de serviços financeiros especializados para ajudar você a alcançar seus objetivos e otimizar suas finanças.
-                  </p>
-                  <div className="service-btn">
-                    <a className="btn-transparent rn-btn-dark" href="/contact">
-                      <span className="text">Solicitar Serviço Personalizado</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* End Single Service  */}
-
-              {/* Start Single Service  */}
-              <div className="col-lg-9">
-                <div className="row">
-                  {starndardService.map((value, index) => (
-                    <div className="col-lg-4 col-md-4 mt--30" key={index}>
-                      <div className="standard-service">
-                        <div className="thumbnai">
-                          <img
-                            src={value.image}
-                            alt="Corporate Images"
-                          />
-                        </div>
-                        <div className="content">
-                          <h3>
-                            <a href="/service-details">{value.title}</a>
-                          </h3>
-                          <p>{value.description}</p>
-                          <a
-                            className="btn-transparent rn-btn-dark"
-                            href="/service-details"
-                          >
-                            <span className="text">Saiba Mais</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              {/* End Single Service  */}
-            </div>
-          </div>
-        </div>
-        {/* End Featured Service Area  */}
-
-
-
         {/* Start About Area  */}
         <div className="rn-about-area ptb--120 bg_color--1">
           <div className="container">
@@ -269,7 +212,7 @@ class CorporateBusiness extends Component {
                   <div className="section-title">
                     <h2 className="title">Sobre Mim</h2>
                     <p>
-                      Olá, eu sou Luiza Simazaki, uma agente financeira licenciada com ampla experiência em educação financeira. Meu objetivo é proporcionar aos meus clientes rendimentos garantidos e sem riscos.
+                      Meu nome é Luiza Simazaki e sou agente de serviços financeiros licenciada. Meu objetivo é proporcionar, através da Educação Financeira, proteção à família e a quem traz renda para casa, além de escolher produtos de acumulação que proporcionarão renda garantida, sem perdas e taxa grátis.
                     </p>
                   </div>
                   <div className="accordion-wrapper mt--30">

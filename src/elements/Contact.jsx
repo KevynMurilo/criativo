@@ -7,6 +7,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import Testimonial from "./Testimonial";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -14,7 +15,7 @@ class Contact extends Component{
     render(){
         return(
             <React.Fragment>
-                <PageHelmet pageTitle='Contact' />
+                <PageHelmet pageTitle='Contato' />
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
@@ -112,18 +113,13 @@ class Contact extends Component{
                 </div>
                 {/* End Contact Map  */}
                 
-
-                {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+                {/* Start Testimonial Area */}
+                <div className="rn-testimonial-area bg_color--1 ptb--120">
                     <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <BrandTwo />
-                            </div>
-                        </div>
+                        <Testimonial />
                     </div>
                 </div>
-                {/* End Brand Area */}
+                {/* End Testimonial Area */}
 
                 {/* Start Back To Top */}
                 <div className="backto-top">

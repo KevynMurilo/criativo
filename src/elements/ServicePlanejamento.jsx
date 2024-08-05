@@ -6,10 +6,10 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
-import serviceImg from "../assets/images/service/service-06.jpg";
-import serviceImg2 from "../assets/images/service/service-05.jpg";
+import serviceImg from "../assets/images/service/service-01.jpg";
+import serviceImg2 from "../assets/images/service/service-02.jpg";
 
-class ServiceEducacao extends Component {
+class ServicePlanejamento extends Component {
   constructor() {
     super();
     this.state = {
@@ -24,7 +24,7 @@ class ServiceEducacao extends Component {
     return (
       <React.Fragment>
         {/* Start Pagehelmet  */}
-        <PageHelmet pageTitle="Educação Financeira" />
+        <PageHelmet pageTitle="Planejamento Seguro" />
         {/* End Pagehelmet  */}
 
         <Header
@@ -42,8 +42,8 @@ class ServiceEducacao extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">Educação Financeira</h2>
-                  <p>Entenda e otimize suas finanças pessoais com segurança e confiança.</p>
+                  <h2 className="title theme-gradient">Planejamento Seguro</h2>
+                  <p>Serviços de consultoria para garantir que sua família esteja protegida e você tenha um futuro promissor, sem perdas e de forma vitalícia.</p>
                 </div>
               </div>
             </div>
@@ -72,18 +72,18 @@ class ServiceEducacao extends Component {
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
                           <p>
-                            Oferecemos uma abordagem personalizada para a educação financeira, ajudando você a entender e gerenciar suas finanças com confiança. Nossos serviços são projetados para atender às suas necessidades específicas e oferecer orientação prática para otimizar seu planejamento financeiro.
+                            Nossos serviços de consultoria em Planejamento Seguro são projetados para oferecer segurança e tranquilidade para você e sua família. Com um planejamento cuidadoso, garantimos que você esteja protegido contra perdas e preparado para um futuro financeiramente estável.
                           </p>
                           <p>
-                            Desde a criação de orçamentos eficientes até a análise de produtos de acumulação, trabalhamos para garantir que você esteja bem informado e preparado para tomar decisões financeiras seguras e eficazes.
+                            Trabalhamos com uma abordagem personalizada, adaptando nossas soluções às suas necessidades específicas, para que você possa acumular patrimônio de forma eficiente e segura ao longo do tempo.
                           </p>
-                          <h4 className="title">Nossos Serviços Incluem:</h4>
+                          <h4 className="title">Nosso Processo de Trabalho</h4>
                           <ul className="liststyle">
-                            <li>Orientação personalizada para otimização financeira</li>
-                            <li>Educação sobre estratégias de economia e acumulação</li>
+                            <li>Consulta inicial para entender suas necessidades</li>
                             <li>Análise detalhada do seu perfil financeiro</li>
-                            <li>Desenvolvimento de planos financeiros sob medida</li>
-                            <li>Orientação contínua e suporte para alcançar seus objetivos</li>
+                            <li>Recomendação de produtos adequados</li>
+                            <li>Implementação e monitoramento contínuo</li>
+                            <li>Ajustes conforme necessário para garantir resultados ótimos</li>
                           </ul>
                         </div>
                       </div>
@@ -95,17 +95,15 @@ class ServiceEducacao extends Component {
                       <div className="col-lg-6 col-12 order-2 order-lg-1">
                         <div className="details mt_md--30 mt_sm--30">
                           <p>
-                            Com uma abordagem detalhada e personalizada, oferecemos a você as ferramentas e o conhecimento necessários para gerenciar suas finanças de forma eficiente e eficaz.
+                            Nossos serviços são ideais para quem busca segurança financeira e deseja proteger seus entes queridos. Com nossa expertise em Planejamento Seguro, você estará em boas mãos.
                           </p>
-                          <p>
-                            Nosso objetivo é capacitar você a tomar decisões financeiras informadas e alcançar uma estabilidade financeira sustentável.
-                          </p>
-                          <h4 className="title">Nosso Processo de Trabalho</h4>
+                          <h4 className="title">Benefícios do Planejamento Seguro</h4>
                           <ul className="liststyle">
-                            <li>Análise inicial das suas necessidades financeiras</li>
-                            <li>Desenvolvimento de um plano financeiro personalizado</li>
-                            <li>Implementação e acompanhamento contínuo das estratégias</li>
-                            <li>Reavaliação e ajustes conforme necessário</li>
+                            <li>Proteção financeira contra imprevistos</li>
+                            <li>Acumulação de patrimônio de forma segura</li>
+                            <li>Tranquilidade para você e sua família</li>
+                            <li>Planejamento personalizado para atender suas necessidades</li>
+                            <li>Suporte contínuo e ajustes conforme necessário</li>
                           </ul>
                         </div>
                       </div>
@@ -153,4 +151,4 @@ class ServiceEducacao extends Component {
     );
   }
 }
-export default ServiceEducacao;
+export default ServicePlanejamento;
