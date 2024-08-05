@@ -7,21 +7,21 @@ import BlogContent from "../elements/blog/BlogContent";
 import Header from "../component/header/HeaderFive";
 import FooterTwo from "../component/footer/FooterTwo";
 import CallAction from "../elements/callaction/CallAction";
-import Team from "../blocks/team/TeamTwo";
 import Accordion01 from "../elements/Accordion";
 import Helmet from "../component/common/Helmet";
+import corporate01 from "../assets/images/featured/corporate-01.jpg";
+import corporate02 from "../assets/images/featured/corporate-02.jpg";
+import corporate03 from "../assets/images/featured/corporate-03.jpg";
+import { FaChalkboardTeacher, FaShieldAlt, FaUmbrella } from "react-icons/fa";
 
 import {
-  FiCast,
   FiLayers,
-  FiUsers,
   FiChevronUp,
   FiCheck,
+  FiSmartphone 
 } from "react-icons/fi";
-import CounterOne from "../elements/counters/CounterOne";
-import BrandOne from "../elements/Brand";
 
-import about from "../assets/images/about/about-4.png";
+import about from "../assets/images/about/about.jpg";
 import about2 from "../assets/images/about/about-3.png";
 
 const SlideList = [
@@ -29,62 +29,65 @@ const SlideList = [
     textPosition: "text-right",
     bgImage: "bg_image--32",
     category: "",
-    title: "Business.",
+    title: "Serviços financeiros",
     description:
-      "There are many variations of passages but the majority have suffered alteration.",
-    buttonText: "Contact Us",
+      "Ofereço serviços financeiros especializados com rendimentos garantidos e sem riscos.",
+    buttonText: "Entre em Contato",
     buttonLink: "/contact",
   },
   {
     textPosition: "text-left",
     bgImage: "bg_image--31",
     category: "",
-    title: "Agency.",
+    title: "Educação Financeira",
     description:
-      "There are many variations of passages but the majority have suffered alteration.",
-    buttonText: "Contact Us",
+      "Ajudo você a organizar suas finanças com segurança e obter rendimentos sólidos e garantidos, sem perdas.",
+    buttonText: "Entre em Contato",
     buttonLink: "/contact",
   },
 ];
 
 const ServiceListOne = [
   {
-    icon: <FiCast />,
-    title: "Business Stratagy",
-    description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+    icon: <FaChalkboardTeacher />,
+    title: "Educação Financeira",
+    description: "Oferecemos educação financeira para que você possa entender e otimizar suas finanças pessoais com segurança.",
+    link: "/service-educacao"
+    
   },
   {
-    icon: <FiLayers />,
-    title: "Website Development",
-    description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+    icon: <FaShieldAlt />,
+    title: "Planejamento Seguro",
+    description: "Serviços de consultoria para garantir que sua família esteja protegida e você tenha um futuro promissor, sem perdas e de forma vitalícia.",
+    link: "/service-planejamento"
   },
   {
-    icon: <FiUsers />,
-    title: "Marketing & Reporting",
-    description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+    icon: <FaUmbrella  />,
+    title: "Aposentadoria",
+    description: "Oferecemos produtos para aposentadoria com renda garantida e regulada pelo governo federal.",
+    link: "/service-aposentadoria"
   },
 ];
 
+
 const starndardService = [
   {
-    image: "01",
-    title: "Thinking Development",
-    description: "I throw myself down among the tall grass by the stream",
+    image: corporate01,
+    title: "Educação Financeira",
+    description: "Oferecemos educação financeira para que você possa entender e otimizar suas finanças pessoais com segurança.",
   },
   {
-    image: "02",
-    title: "Business Consulting",
-    description: "I throw myself down among the tall grass by the stream",
+    image: corporate02,
+    title: "Planejamento Seguro",
+    description: "Serviços de consultoria para garantir que sua família esteja protegida e você tenha um futuro promissor, sem perdas e de forma vitalícia.",
   },
   {
-    image: "03",
-    title: "Biseness Development",
-    description: "I throw myself down among the tall grass by the stream",
+    image: corporate03,
+    title: "Aposentadoria",
+    description: "Oferecemos produtos para aposentadoria com renda garantida e regulada pelo governo federal.",
   },
 ];
+
 
 class CorporateBusiness extends Component {
   constructor() {
@@ -99,22 +102,22 @@ class CorporateBusiness extends Component {
   }
   render() {
     var namesItemOne = [
-      "The Philosophy Of business analytics",
-      "Fast-Track Your business",
-      "Lies And Damn Lies About business",
-      "The Ultimate Deal On business",
+      "Análise Profunda dos Dados Financeiros",
+      "Otimização Rápida dos Recursos Financeiros",
+      "Mitos e Verdades sobre Investimentos",
+      "Estratégias Exclusivas para Maximização de Lucros",
     ];
     var namesItemTwo = [
-      "Proof That business Really Works",
-      "Here Is What You Should Do For Your business",
-      "The Hidden Mystery Behind business",
+      "Evidências de Sucesso em Consultoria Financeira",
+      "Ações Recomendadas para Gestão Eficiente",
+      "Desvendando os Segredos do Mercado Financeiro",
     ];
 
     const PostList = BlogContent.slice(0, 3);
 
     return (
       <Fragment>
-        <Helmet pageTitle="Corporate Business" />
+        <Helmet pageTitle="Início" />
 
         {/* Start Header Area  */}
         <Header
@@ -180,7 +183,7 @@ class CorporateBusiness extends Component {
                   className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
                   key={i}
                 >
-                  <a className="text-center" href="/service-details">
+                  <a className="text-center" href={val.link}>
                     <div className="service service__style--2">
                       <div className="icon">{val.icon}</div>
                       <div className="content">
@@ -195,76 +198,8 @@ class CorporateBusiness extends Component {
           </div>
         </div>
         {/* End Service Area */}
-
-        {/* Start Featured Service Area  */}
-        <div className="rn-featured-service-area pt--90 pb--120 bg_color--5">
-          <div className="container">
-            <div className="row">
-              {/* Start Single Service  */}
-              <div className="col-lg-3 col-md-6 col-12 mt--30">
-                <div className="section-title">
-                  <h2 className="title">Services</h2>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but.
-                  </p>
-                  <div className="service-btn">
-                    <a className="btn-transparent rn-btn-dark" href="/service">
-                      <span className="text">Request Custom Service</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* End Single Service  */}
-
-              {/* Start Single Service  */}
-              <div className="col-lg-9">
-                <div className="row">
-                  {starndardService.map((value, index) => (
-                    <div className="col-lg-4 col-md-4 mt--30" key={index}>
-                      <div className="standard-service">
-                        <div className="thumbnai">
-                          <img
-                            src={`/assets/images/featured/corporate-${value.image}.jpg`}
-                            alt="Corporate Images"
-                          />
-                        </div>
-                        <div className="content">
-                          <h3>
-                            <a href="/service-details">{value.title}</a>
-                          </h3>
-                          <p>{value.description}</p>
-                          <a
-                            className="btn-transparent rn-btn-dark"
-                            href="/service-details"
-                          >
-                            <span className="text">Read More</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              {/* End Single Service  */}
-            </div>
-          </div>
-        </div>
-        {/* End Featured Service Area  */}
-
-        {/* Start Counterup Area */}
-        <div
-          className="counterup-area pb--80 pt--40 bg_image bg_image--17 theme-text-white"
-          data-black-overlay="7"
-        >
-          <div className="container">
-            <CounterOne />
-          </div>
-        </div>
-        {/* End Counterup Area */}
-
         {/* Start About Area  */}
-        <div className="rn-about-area ptb--120 bg_color--5">
+        <div className="rn-about-area ptb--120 bg_color--1">
           <div className="container">
             <div className="row row--35 align-items-center">
               <div className="col-lg-6">
@@ -275,10 +210,9 @@ class CorporateBusiness extends Component {
               <div className="col-lg-6">
                 <div className="about-inner inner">
                   <div className="section-title">
-                    <h2 className="title">Working Process</h2>
+                    <h2 className="title">Sobre Mim</h2>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Enim exercitationem impedit iure quia quo recusandae?
+                      Meu nome é Luiza Simazaki e sou agente de serviços financeiros licenciada. Meu objetivo é proporcionar, através da Educação Financeira, proteção à família e a quem traz renda para casa, além de escolher produtos de acumulação que proporcionarão renda garantida, sem perdas e taxa grátis.
                     </p>
                   </div>
                   <div className="accordion-wrapper mt--30">
@@ -286,7 +220,7 @@ class CorporateBusiness extends Component {
                   </div>
                   <div className="about-button mt--50">
                     <a className="rn-button-style--2 btn-solid" href="/about">
-                      See how it works
+                      Saiba Mais
                     </a>
                   </div>
                 </div>
@@ -294,32 +228,8 @@ class CorporateBusiness extends Component {
             </div>
           </div>
         </div>
-        {/* End About Area  */}
 
-        {/* Start Team Area  */}
-        <div className="rn-team-area ptb--120 bg_color--1">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
-                  <h2 className="title">Managing Team</h2>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <Team
-                column="col-lg-3 col-md-6 col-sm-6 col-12 mt--30"
-                teamStyle=""
-                item="4"
-              />
-            </div>
-          </div>
-        </div>
-        {/* End Team Area  */}
+        {/* End About Area  */}
 
         {/* Start About Area  */}
         <div className="rn-about-area ptb--120 bg_color--5">
@@ -328,16 +238,13 @@ class CorporateBusiness extends Component {
               <div className="col-lg-6 order-2 order-lg-1">
                 <div className="about-inner inner">
                   <div className="section-title">
-                    <h2 className="title">About</h2>
+                    <h2 className="title">O Que Ofereço</h2>
                     <p className="description">
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      dont look even slightly believable.
+                      Ofereço soluções financeiras personalizadas que atendem às suas necessidades individuais e superam suas expectativas. Com ampla experiência e dedicação, proporciono a melhor abordagem para otimizar suas finanças e alcançar seus objetivos.
                     </p>
                   </div>
                   <div className="mt--30">
-                    <h4>Lorem ipsum dolor sit.</h4>
+                    <h4>Áreas de Expertise</h4>
                     <ul className="list-style--1">
                       {namesItemOne.map((name, index) => {
                         return (
@@ -349,7 +256,7 @@ class CorporateBusiness extends Component {
                     </ul>
                   </div>
                   <div className="mt--30">
-                    <h4>Lorem ipsum dolor sit.</h4>
+                    <h4>Insights e Recomendações</h4>
                     <ul className="list-style--1">
                       {namesItemTwo.map((name, index) => {
                         return (
@@ -359,6 +266,12 @@ class CorporateBusiness extends Component {
                         );
                       })}
                     </ul>
+                    <div className="section-title mt--30">
+                      <p className="description">
+                      Veja ao lado um depoimento sobre como minhas soluções financeiras transformaram as finanças de um cliente.
+                    </p>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -372,7 +285,7 @@ class CorporateBusiness extends Component {
                   <ModalVideo
                     channel="youtube"
                     isOpen={this.state.isOpen}
-                    videoId="ZOoVOfieAF8"
+                    videoId="a0a6y605DNk"
                     onClose={() => this.setState({ isOpen: false })}
                   />
                   <button
@@ -388,169 +301,17 @@ class CorporateBusiness extends Component {
         </div>
         {/* End About Area  */}
 
-        {/* Start Brand Area  */}
-        <div className="rn-brand-area ptb--120 bg_color--1">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <BrandOne branstyle="branstyle--2" />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* End Brand Area  */}
-
-        {/* Start Pricing Tbale Area  */}
-        <div className="rn-pricing-table-area ptb--120 bg_color--5">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
-                  <h2 className="title">Pricing Plan</h2>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              {/* Start PRicing Table Area  */}
-              <div className="col-lg-4 col-md-6 col-12 mt--30">
-                <div className="rn-pricing">
-                  <div className="pricing-table-inner">
-                    <div className="pricing-header">
-                      <h4 className="title">Free</h4>
-                      <div className="pricing">
-                        <span className="price">29</span>
-                        <span className="subtitle">USD Per Month</span>
-                      </div>
-                    </div>
-                    <div className="pricing-body">
-                      <ul className="list-style--1">
-                        <li>
-                          <FiCheck /> 5 PPC Campaigns
-                        </li>
-                        <li>
-                          <FiCheck /> Digital Marketing
-                        </li>
-                        <li>
-                          <FiCheck /> Marketing Agency
-                        </li>
-                        <li>
-                          <FiCheck /> Seo Friendly
-                        </li>
-                        <li>
-                          <FiCheck /> UI/UX designs
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="pricing-footer">
-                      <a className="rn-btn" href="#pricing">
-                        Purchase Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* End PRicing Table Area  */}
-
-              {/* Start PRicing Table Area  */}
-              <div className="col-lg-4 col-md-6 col-12 mt--30">
-                <div className="rn-pricing active">
-                  <div className="pricing-table-inner">
-                    <div className="pricing-header">
-                      <h4 className="title">Business</h4>
-                      <div className="pricing">
-                        <span className="price">29</span>
-                        <span className="subtitle">USD Per Month</span>
-                      </div>
-                    </div>
-                    <div className="pricing-body">
-                      <ul className="list-style--1">
-                        <li>
-                          <FiCheck /> 5 PPC Campaigns
-                        </li>
-                        <li>
-                          <FiCheck /> Digital Marketing
-                        </li>
-                        <li>
-                          <FiCheck /> Marketing Agency
-                        </li>
-                        <li>
-                          <FiCheck /> Seo Friendly
-                        </li>
-                        <li>
-                          <FiCheck /> UI/UX designs
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="pricing-footer">
-                      <a className="rn-btn" href="#pricing">
-                        Purchase Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* End PRicing Table Area  */}
-
-              {/* Start PRicing Table Area  */}
-              <div className="col-lg-4 col-md-6 col-12 mt--30">
-                <div className="rn-pricing">
-                  <div className="pricing-table-inner">
-                    <div className="pricing-header">
-                      <h4 className="title">Advanced</h4>
-                      <div className="pricing">
-                        <span className="price">29</span>
-                        <span className="subtitle">USD Per Month</span>
-                      </div>
-                    </div>
-                    <div className="pricing-body">
-                      <ul className="list-style--1">
-                        <li>
-                          <FiCheck /> 5 PPC Campaigns
-                        </li>
-                        <li>
-                          <FiCheck /> Digital Marketing
-                        </li>
-                        <li>
-                          <FiCheck /> Marketing Agency
-                        </li>
-                        <li>
-                          <FiCheck /> Seo Friendly
-                        </li>
-                        <li>
-                          <FiCheck /> UI/UX designs
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="pricing-footer">
-                      <a className="rn-btn" href="#pricing">
-                        Purchase Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* End PRicing Table Area  */}
-            </div>
-          </div>
-        </div>
-        {/* End Pricing Tbale Area  */}
-
         {/* Start Blog Area */}
         <div className="rn-blog-area pt--120 pb--80 bg_color--1">
           <div className="container">
             <div className="row align-items-end">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center">
-                  <h2 className="title">Latest News</h2>
+                  <h2 className="title">Blog de Finanças</h2>
                   <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
+                      Explore nossos artigos mais recentes sobre estratégias financeiras e investimentos.
                   </p>
-                </div>
+              </div>
               </div>
             </div>
             <div className="row mt--60">
@@ -558,7 +319,7 @@ class CorporateBusiness extends Component {
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
                   <div className="blog blog-style--1">
                     <div className="thumbnail">
-                      <a href="/blog-details">
+                      <a href={value.link}>
                         <img
                           className="w-100"
                           src={value.images}
@@ -569,11 +330,11 @@ class CorporateBusiness extends Component {
                     <div className="content">
                       <p className="blogtype">{value.category}</p>
                       <h4 className="title">
-                        <a href="/blog-details">{value.title}</a>
+                        <a href={value.link}>{value.title}</a>
                       </h4>
                       <div className="blog-btn">
-                        <a className="rn-btn text-white" href="/blog-details">
-                          Read More
+                        <a className="rn-btn text-white" href={value.link}>
+                          Leia mais
                         </a>
                       </div>
                     </div>

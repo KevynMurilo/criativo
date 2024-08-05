@@ -146,6 +146,14 @@ font-family: 'Poppins', sans-serif;
     }
 }
 
+.bg_image--1 {
+    background-image: url(/assets/images/bg/bg-image-1.jpg) !important;
+}
+
+.bg_image--17 {
+    background-image: url(/assets/images/bg/bg-image-count.jpg) !important;
+}
+
 
 
 @for $i from 1 through 80 {

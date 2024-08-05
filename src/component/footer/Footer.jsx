@@ -9,7 +9,7 @@ import {
 const SocialShare = [
   { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
   { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
+  { Social: <FaInstagram />, link: "https://www.instagram.com/luizasimazaki/" },
   { Social: <FaTwitter />, link: "https://twitter.com/" },
 ];
 
@@ -19,16 +19,16 @@ class Footer extends Component {
       <React.Fragment>
         <footer className="footer-area">
           <div className="footer-wrapper">
-            <div className="row align-items-end row--0">
+            <div className="row align-items-end row--0 bg_color--1">
               <div className="col-lg-6">
                 <div className="footer-left">
                   <div className="inner">
-                    <span>Ready To Do This</span>
+                    <span>Pronto para começar?</span>
                     <h2>
-                      Let's get <br /> to work
+                      Vamos<br/> planejar
                     </h2>
                     <a className="rn-button-style--2" href="/contact">
-                      <span>Contact Us</span>
+                      <span>Fale Conosco</span>
                     </a>
                   </div>
                 </div>
@@ -39,16 +39,16 @@ class Footer extends Component {
                     {/* Start Single Widget  */}
                     <div className="col-lg-6 col-sm-6 col-12">
                       <div className="footer-link">
-                        <h4>Quick Link</h4>
+                        <h4>Link rápido</h4>
                         <ul className="ft-link">
                           <li>
-                            <a href="/portfolio">Work</a>
+                            <a href="/">Início</a>
                           </li>
                           <li>
-                            <a href="/about">About</a>
+                            <a href="/about">Sobre</a>
                           </li>
                           <li>
-                            <a href="/contact">Let's Talk</a>
+                            <a href="/contact">Contato</a>
                           </li>
                         </ul>
                       </div>
@@ -57,15 +57,13 @@ class Footer extends Component {
                     {/* Start Single Widget  */}
                     <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">
                       <div className="footer-link">
-                        <h4>Say Hello</h4>
+                        <h4>Diga olá</h4>
                         <ul className="ft-link">
                           <li>
-                            <a href="mailto:admin@example.com">
-                              admin@example.com
-                            </a>
+                            <a href="mailto:luizasimazaki@gmail.com">luizasimazaki@gmail.com</a>
                           </li>
                           <li>
-                            <a href="mailto:hr@example.com">hr@example.com</a>
+                          <a href="tel:+1 7862337681">+1 (786) 233-7681</a>
                           </li>
                         </ul>
 
@@ -85,7 +83,7 @@ class Footer extends Component {
                     <div className="col-lg-12">
                       <div className="copyright-text">
                         <p>
-                          Copyright © 2024 Rainbow-Themes. All Rights Reserved.
+                          Copyright © 2024 Luiza Simazaki. Todos os direitos reservados.
                         </p>
                       </div>
                     </div>

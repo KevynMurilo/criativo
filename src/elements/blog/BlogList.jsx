@@ -26,7 +26,7 @@ class BLogList extends Component {
                   </h4>
                   <div className="blog-btn">
                     <a className="rn-btn text-white" href="/blog-details">
-                      Read More
+                      Leia Mais
                     </a>
                   </div>
                 </div>

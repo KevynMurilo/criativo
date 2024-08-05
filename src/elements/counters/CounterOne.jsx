@@ -17,16 +17,16 @@ class CounterOne extends Component{
     render(){
         let Data = [
             {
-                countNum : 199,
-                countTitle: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.',
+                countNum: 199,
+                countTitle: 'Clientes satisfeitos com nossos serviços financeiros especializados.',
             },
             {
-                countNum : 575,
-                countTitle: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.',
+                countNum: 575,
+                countTitle: 'Horas dedicadas ao planejamento e análise financeira de nossos clientes.',
             },
             {
-                countNum : 69,
-                countTitle: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.',
+                countNum: 69,
+                countTitle: 'Análises de investimento realizadas com sucesso.',
             },
         ];
 

@@ -17,23 +17,23 @@ class Accordion01 extends Component {
                 <AccordionItem >
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            Your Business Skills But Never Stop Improving.
+                            Minha Formação Acadêmica
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi doloribus eaque error est explicabo facilis fugit incidunt iste iure non nostrum officia, perspiciatis quidem quisquam rerum.</p>
+                        <p> Tenho 2 graduações e 1 MBA na área educacional.</p>
                     </AccordionItemPanel>
                 </AccordionItem>
 
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            Tactics That Can Help Your Business Grow.
+                            Abordagem de Trabalho
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, porro, rerum. A amet, dolorum esse laboriosam Accusantium cum laborum nulla possimus. Repellat!
+                            Meu trabalho é individualizado e extremamente sigiloso, visando melhor atender às necessidades do cliente e sua família.
                         </p>
                     </AccordionItemPanel>
                 </AccordionItem>
@@ -41,12 +41,12 @@ class Accordion01 extends Component {
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            The Secret of Successful Business
+                            Afiliada
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <p>
-                            Ad aliquam dicta enim excepturi explicabo in ipsum iste iure natus perferendis placeat quae similique tempore totam veniam vero!
+                            Sou associada à 5 Rings Financial, que atua na indústria financeira há mais de 20 anos e representa empresas com mais de 150 anos no setor. O CEO da empresa é Mike Wilk, e a sede está localizada em Denver, Colorado.
                         </p>
                     </AccordionItemPanel>
                 </AccordionItem>
@@ -54,16 +54,15 @@ class Accordion01 extends Component {
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            How To Start A Business With Business
+                            Hobbies
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <p>
-                            Facilis fugiat hic ipsam iusto laudantium libero maiores minima molestiae mollitia repellat rerum sunt ullam voluptates? Perferendis, suscipit.
+                            Yoga, natação e dançar.
                         </p>
                     </AccordionItemPanel>
                 </AccordionItem>
-
             </Accordion>
         )
     }
