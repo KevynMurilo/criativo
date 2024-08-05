@@ -335,10 +335,9 @@ Custom Row
             padding-right: 15px !important;
         }
 
-        //Antes era 15, deixei 0 para ficar melhor em telefones
         @media #{$sm-layout} {
-            padding-left: 0px !important;
-            padding-right: 0px !important;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
         }
     }
 }
