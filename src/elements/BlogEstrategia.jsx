@@ -91,12 +91,6 @@ class BlogEstrategia extends Component {
                     <p>
                       Lembre-se de que o sucesso financeiro não acontece da noite para o dia. Requer paciência, diligência e uma abordagem disciplinada. Com as estratégias certas, você pode construir um patrimônio sonhado e atingir seus objetivos financeiros.
                     </p>
-                    <p>
-                      Segundo, considere produtos de acumulação financeira indexados na Bolsa de Valores (S&P 500), mas com piso zero. Isso significa que, mesmo que o mercado caia, você não terá perdas. Este tipo de produto oferece uma oportunidade de crescimento enquanto protege seu capital contra ações judiciais e falências.
-                    </p>
-                    <p>
-                      Terceiro, há instrumentos financeiros que podem oferecer renda vitalícia garantida e livre de impostos, fornecendo segurança financeira no longo prazo, independentemente das flutuações do mercado.
-                    </p>
                     <div className="blog-single-list-wrapper d-flex flex-wrap">
                       <div className="thumbnail">
                         <img className="w-100" src={imgTwo} alt="Blog Images" />
@@ -105,14 +99,12 @@ class BlogEstrategia extends Component {
                         </span>
                       </div>
                       <div className="content">
-                        <h4 className="title">Dicas Práticas:</h4>
-                        <ul className="list-style">
-                          <li>Invista regularmente, mesmo que sejam pequenos montantes.</li>
-                          <li>Reinvista seus dividendos e juros para acelerar o crescimento.</li>
-                          <li>Evite tomar decisões impulsivas baseadas em emoções.</li>
-                          <li>Considere os custos e taxas associados a cada produto financeiro.</li>
-                          <li>Consulte um agente financeiro</li>
-                        </ul>
+                      <p>
+                        Segundo, considere produtos de acumulação financeira indexados na Bolsa de Valores (S&P 500), mas com piso zero. Isso significa que, mesmo que o mercado caia, você não terá perdas. Este tipo de produto oferece uma oportunidade de crescimento enquanto protege seu capital contra ações judiciais e falências.
+                      </p>
+                      <p>
+                        Terceiro, há instrumentos financeiros que podem oferecer renda vitalícia garantida e livre de impostos, fornecendo segurança financeira no longo prazo, independentemente das flutuações do mercado.
+                      </p>
                       </div>
                     </div>
 
