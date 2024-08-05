@@ -136,7 +136,7 @@ class BlogEconomia extends Component {
                       </button>
                     </div>
                     <p className="mb--0">
-                      Acompanhar as tendências econômicas é uma parte essencial da gestão financeira e da estratégia de investimentos. Manter-se informado e adaptável é fundamental para navegar com sucesso em um cenário econômico em constante evolução.
+                    Acompanhar as tendências econômicas é uma parte essencial da gestão financeira e da estratégia de proteção do patrimônio e acumulaçãode riquezas. Manter-se informado e adaptável é fundamental para navegar com sucesso em um cenário econômico em constante evolução.
                     </p>
                   </div>
                 </div>

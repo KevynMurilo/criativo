@@ -6,7 +6,7 @@ import blog4 from "../../assets/images/blog/blog-04.jpg";
 const BlogContent = [
   {
     images: blog1,
-    title: "Estratégias para Investimentos de Sucesso",
+    title: "Estratégias para os juros compostos trabalharem ao seu favor",
     category: "Investimentos",
     link: "/blog-estrategia"
   },
@@ -30,7 +30,7 @@ const BlogContent = [
   },
   {
     images: blog1,
-    title: "Estratégias para Investimentos de Sucesso",
+    title: "Estratégias para os juros compostos trabalharem ao seu favor",
     category: "Investimentos",
     link: "/blog-estrategia"
   },

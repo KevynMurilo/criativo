@@ -19,9 +19,11 @@ class BlogPatrimonio extends Component {
     };
     this.openModal = this.openModal.bind(this);
   }
+
   openModal() {
     this.setState({ isOpen: true });
   }
+
   render() {
     return (
       <React.Fragment>
@@ -51,7 +53,7 @@ class BlogPatrimonio extends Component {
                     </li>
                     <li>
                       <FiUser />
-                        Luiza Simazaki
+                      Luiza Simazaki
                     </li>
                     <li>
                       <FiMessageCircle />
@@ -77,34 +79,22 @@ class BlogPatrimonio extends Component {
                 <div className="inner-wrapper">
                   <div className="inner">
                     <p>
-                      Gerenciar seu patrimônio de forma eficaz é essencial para garantir um futuro financeiro estável. Aqui estão algumas dicas práticas para ajudar você a começar.
+                      Saiba da importância de um orçamento bem elaborado. Conheça suas receitas e despesas. Identifique áreas onde é possível economizar ou até eliminar de sua vida financeira (funil financeiro).
                     </p>
                     <div className="thumbnail">
                       <img src={imgOne} alt="Blog Images" />
                     </div>
-                    <p className="mt--40">
-                      A diversificação de investimentos é uma das estratégias mais recomendadas por especialistas. Ao espalhar seus investimentos em diferentes tipos de ativos, você reduz os riscos e aumenta suas chances de retornos positivos.
-                    </p>
-                    <p>
-                      Outro ponto crucial é a importância de um orçamento bem elaborado. Conhecer suas receitas e despesas permite identificar áreas onde é possível economizar e investir mais.
-                    </p>
                     <blockquote className="rn-blog-quote">
                       "Planejamento financeiro é sobre equilibrar suas necessidades atuais com suas metas futuras." - Anônimo
                     </blockquote>
                     <p>
-                      Manter-se informado sobre o mercado financeiro também é vital. Leia livros, acompanhe notícias e, se possível, consulte um consultor financeiro para orientações personalizadas.
+                      Gerenciar suas finanças não é uma tarefa fácil, mas com dedicação e as ferramentas certas, é possível construir um patrimônio sólido e sustentável.
                     </p>
                     <div className="blog-single-list-wrapper d-flex flex-wrap">
                       <div className="thumbnail">
                         <img className="w-100" src={imgTwo} alt="Blog Images" />
-                        <span>
-                          Educação financeira é a chave para um futuro seguro.
-                        </span>
                       </div>
                       <div className="content">
-                        <p>
-                          Gerenciar suas finanças não é uma tarefa fácil, mas com dedicação e as ferramentas certas, é possível construir um patrimônio sólido e sustentável.
-                        </p>
                         <h4 className="title">Dicas de Gerenciamento:</h4>
                         <ul className="list-style">
                           <li>Defina metas financeiras claras e alcançáveis.</li>
@@ -122,9 +112,8 @@ class BlogPatrimonio extends Component {
                         </ul>
                       </div>
                     </div>
-
                     <p className="mt--25 mt_sm--5">
-                      Com essas dicas, você estará no caminho certo para gerenciar seu patrimônio de maneira eficiente e alcançar suas metas financeiras.
+                      Com essas orientações você estará no caminho certo para gerenciar seu patrimônio de maneira eficiente e alcançar suas metas financeiras.
                     </p>
                     <div className="video-wrapper position-relative mb--40">
                       <div className="thumbnail">
