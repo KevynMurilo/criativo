@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from "react-modal-video";
-import { FiClock, FiUser, FiMessageCircle, FiHeart, FiChevronUp } from "react-icons/fi";
+import { FiClock, FiUser, FiMessageCircle, FiHeart } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
+import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
-import imgOne from "../assets/images/blog/bl-big-01.jpg";
-import imgTwo from "../assets/images/blog/blog-single-01.png";
+import imgOne from "../assets/images/blog/bl-big-03.jpg";
+import imgTwo from "../assets/images/blog/blog-single-03.jpg";
 
-class BlogEstrategia extends Component {
+class BlogEconomia extends Component {
   constructor() {
     super();
     this.state = {
@@ -18,15 +19,13 @@ class BlogEstrategia extends Component {
     };
     this.openModal = this.openModal.bind(this);
   }
-
   openModal() {
     this.setState({ isOpen: true });
   }
-
   render() {
     return (
       <React.Fragment>
-        <PageHelmet pageTitle="Estratégias para o Investimento de Sucesso" />
+        <PageHelmet pageTitle="Tendências Econômicas Atuais" />
         <Header
           headertransparent="header--transparent"
           colorblack="color--black"
@@ -43,20 +42,24 @@ class BlogEstrategia extends Component {
               <div className="col-lg-12">
                 <div className="blog-single-page-title text-center pt--100">
                   <h2 className="title theme-gradient">
-                    Estratégias para o Investimento de Sucesso
+                    Tendências Econômicas Atuais <br /> e Seu Impacto no Mercado
                   </h2>
                   <ul className="blog-meta d-flex justify-content-center align-items-center">
                     <li>
-                      <FiClock /> 2 de agosto de 2024
+                      <FiClock />
+                      Agosto 5, 2024
                     </li>
                     <li>
-                      <FiUser /> Luiza Simazaki
+                      <FiUser />
+                      Luiza Simazaki
                     </li>
                     <li>
-                      <FiMessageCircle /> 15 Comentários
+                      <FiMessageCircle />
+                      20 Comentários
                     </li>
                     <li>
-                      <FiHeart />32 Curtidas
+                      <FiHeart />
+                      47 Curtidas
                     </li>
                   </ul>
                 </div>
@@ -74,47 +77,50 @@ class BlogEstrategia extends Component {
                 <div className="inner-wrapper">
                   <div className="inner">
                     <p>
-                      O investimento de sucesso não é apenas sobre sorte. Envolve pesquisa, planejamento estratégico e uma compreensão clara dos mercados. Aqui estão algumas estratégias comprovadas que podem ajudá-lo a alcançar o sucesso em seus investimentos.
+                      Em um mundo em constante mudança, acompanhar as tendências econômicas é crucial para tomar decisões informadas. Neste artigo, exploraremos as principais tendências econômicas atuais que estão moldando o mercado global. De inovações tecnológicas a mudanças nas políticas monetárias, entender essas tendências pode ajudar investidores e profissionais a antecipar oportunidades e riscos.
                     </p>
                     <div className="thumbnail">
-                      <img src={imgOne} alt="Blog Images" />
+                      <img src={imgOne} alt="Tendências Econômicas" />
                     </div>
                     <p className="mt--40">
-                      Primeiramente, diversifique seu portfólio. Não coloque todos os ovos em uma única cesta. Investir em diferentes classes de ativos pode ajudar a mitigar riscos e maximizar retornos.
+                      A digitalização e a tecnologia continuam a desempenhar um papel central nas tendências econômicas atuais. A ascensão da inteligência artificial e do blockchain está transformando setores inteiros, desde serviços financeiros até manufatura. As empresas estão investindo em tecnologias emergentes para otimizar operações e criar novos modelos de negócios.
                     </p>
                     <p>
-                      Além disso, é essencial manter-se informado sobre as tendências de mercado e eventos econômicos que podem impactar seus investimentos. A educação contínua e a adaptação às mudanças são cruciais.
+                      Além disso, as políticas monetárias dos principais bancos centrais têm um impacto significativo sobre os mercados. As decisões sobre taxas de juros e estímulos econômicos moldam o ambiente financeiro e influenciam a estabilidade econômica global. Em tempos de incerteza econômica, acompanhar essas políticas pode fornecer insights valiosos sobre a direção dos mercados.
                     </p>
                     <blockquote className="rn-blog-quote">
-                      "A diversificação é a única estratégia gratuita de mitigação de riscos que os investidores têm à disposição." - Warren Buffett
+                      "A adaptação às mudanças econômicas é a chave para o sucesso em um mercado dinâmico e em rápida evolução."
                     </blockquote>
                     <p>
-                      Outra dica é definir metas claras e realistas. Saber o que você quer alcançar com seus investimentos pode ajudá-lo a tomar decisões mais informadas e disciplinadas.
+                      Outra tendência importante é o crescimento das economias emergentes. Países em desenvolvimento estão se tornando centros de crescimento econômico, com mercados em expansão e novas oportunidades de investimento. A diversificação geográfica pode ser uma estratégia eficaz para investidores que buscam aproveitar o potencial desses mercados em ascensão.
                     </p>
                     <div className="blog-single-list-wrapper d-flex flex-wrap">
                       <div className="thumbnail">
-                        <img className="w-100" src={imgTwo} alt="Blog Images" />
+                        <img className="w-100" src={imgTwo} alt="Economia Global" />
                         <span>
-                          Monitoramento constante e reavaliação de estratégias são fundamentais.
+                          O impacto das economias emergentes no mercado global.
                         </span>
                       </div>
                       <div className="content">
-                        <h4 className="title">Dicas Práticas:</h4>
+                        <p>
+                          As tendências econômicas atuais oferecem um panorama fascinante do futuro dos mercados. De mudanças tecnológicas a políticas monetárias, esses fatores estão moldando a economia global de maneiras complexas e interligadas. Manter-se atualizado sobre essas tendências é essencial para qualquer profissional que deseja se destacar no ambiente econômico atual.
+                        </p>
+                        <h4 className="title">Principais Tendências:</h4>
                         <ul className="list-style">
-                          <li>Invista regularmente, mesmo que sejam pequenos montantes.</li>
-                          <li>Reinvista seus dividendos e juros para acelerar o crescimento.</li>
-                          <li>Evite tomar decisões impulsivas baseadas em emoções.</li>
-                          <li>Considere os custos e taxas associados a cada investimento.</li>
-                          <li>Faça uso de ferramentas e consultoria financeira, se necessário.</li>
+                          <li>Ascensão da inteligência artificial e automação</li>
+                          <li>Impacto das políticas monetárias e fiscais</li>
+                          <li>Crescimento das economias emergentes</li>
+                          <li>Sustentabilidade e investimentos responsáveis</li>
                         </ul>
                       </div>
                     </div>
+
                     <p className="mt--25 mt_sm--5">
-                      Lembre-se de que o sucesso no investimento não acontece da noite para o dia. Requer paciência, diligência e uma abordagem disciplinada. Com as estratégias certas, você pode construir um portfólio robusto e atingir seus objetivos financeiros.
+                      O entendimento dessas tendências pode proporcionar uma vantagem competitiva, permitindo que empresas e investidores se adaptem rapidamente às mudanças do mercado. Com uma visão clara das forças econômicas em jogo, é possível tomar decisões mais informadas e estratégicas.
                     </p>
                     <div className="video-wrapper position-relative mb--40">
                       <div className="thumbnail">
-                        <img src={imgOne} alt="Blog Images" />
+                        <img src={imgOne} alt="Vídeo sobre Economia" />
                       </div>
                       <ModalVideo
                         channel="youtube"
@@ -130,7 +136,7 @@ class BlogEstrategia extends Component {
                       </button>
                     </div>
                     <p className="mb--0">
-                      Esperamos que estas dicas ajudem você a trilhar um caminho de sucesso em seus investimentos. Continue aprendendo e ajustando suas estratégias conforme necessário.
+                      Acompanhar as tendências econômicas é uma parte essencial da gestão financeira e da estratégia de investimentos. Manter-se informado e adaptável é fundamental para navegar com sucesso em um cenário econômico em constante evolução.
                     </p>
                   </div>
                 </div>
@@ -200,5 +206,4 @@ class BlogEstrategia extends Component {
     );
   }
 }
-
-export default BlogEstrategia;
+export default BlogEconomia;
