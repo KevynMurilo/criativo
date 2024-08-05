@@ -102,15 +102,17 @@ class CorporateBusiness extends Component {
   }
   render() {
     var namesItemOne = [
-      "Análise Profunda dos Dados Financeiros",
-      "Otimização Rápida dos Recursos Financeiros",
-      "Mitos e Verdades sobre Investimentos",
-      "Estratégias Exclusivas para Maximização de Lucros",
+      "Análise dos Dados Financeiros do cliente: Fundação, Acumulação e Distribuição",
+      "Otimização dos Recursos Financeiros disponíveis e dos não disponíveis",
+      "Mitos e Verdades sobre como os juros compostos podem trabalhar",
+      "Estratégias garantidas para Maximização dos rendimentos, com perdas zero",
     ];
     var namesItemTwo = [
-      "Evidências de Sucesso em Consultoria Financeira",
-      "Ações Recomendadas para Gestão Eficiente",
-      "Desvendando os Segredos do Mercado Financeiro",
+      "Evidências de Sucesso em Serviços Financeiros prestados",
+      "Ações Recomendadas para Proteção eficiente do patrimônio acumulado",
+      "Regra do 72 de Albert Einstein atuando sobre os valores acumulados",
+      "Como deixar Herança para enriquecer as futuras gerações",
+      "Como evitar a falência financeira familiar no caso de quem trás renda para casa tiver doença grave",
     ];
 
     const PostList = BlogContent.slice(0, 3);
@@ -240,7 +242,7 @@ class CorporateBusiness extends Component {
                   <div className="section-title">
                     <h2 className="title">O Que Ofereço</h2>
                     <p className="description">
-                      Ofereço soluções financeiras personalizadas que atendem às suas necessidades individuais e superam suas expectativas. Com ampla experiência e dedicação, proporciono a melhor abordagem para otimizar suas finanças e alcançar seus objetivos.
+                      Ofereço Educação  Financeira para brasileiros que moram nos Estados Unidos e no Brasil de forma personalizada e que atendam as suas necessidades individuais e superam suas expectativas. Com ampla experiência e dedicação, proporciono a melhor abordagem para otimizar suas economias e alcançar seus objetivos a longo prazo
                     </p>
                   </div>
                   <div className="mt--30">
@@ -268,7 +270,7 @@ class CorporateBusiness extends Component {
                     </ul>
                     <div className="section-title mt--30">
                       <p className="description">
-                      Veja ao lado um depoimento sobre como minhas soluções financeiras transformaram as finanças de um cliente.
+                        Veja ao lado um depoimento sobre como minhas soluções financeiras transformaram as finanças de um cliente.
                     </p>
                     </div>
                     

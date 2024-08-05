@@ -26,7 +26,7 @@ class BlogEstrategia extends Component {
   render() {
     return (
       <React.Fragment>
-        <PageHelmet pageTitle="Estratégias para o Investimento de Sucesso" />
+        <PageHelmet pageTitle="Estratégias para os juros compostos trabalharem ao seu favor" />
         <Header
           headertransparent="header--transparent"
           colorblack="color--black"
@@ -43,7 +43,7 @@ class BlogEstrategia extends Component {
               <div className="col-lg-12">
                 <div className="blog-single-page-title text-center pt--100">
                   <h2 className="title theme-gradient">
-                    Estratégias para o Investimento de Sucesso
+                    Estratégias para os juros compostos trabalharem ao seu favor
                   </h2>
                   <ul className="blog-meta d-flex justify-content-center align-items-center">
                     <li>
@@ -56,7 +56,7 @@ class BlogEstrategia extends Component {
                       <FiMessageCircle /> 15 Comentários
                     </li>
                     <li>
-                      <FiHeart />32 Curtidas
+                      <FiHeart /> 32 Curtidas
                     </li>
                   </ul>
                 </div>
@@ -74,22 +74,28 @@ class BlogEstrategia extends Component {
                 <div className="inner-wrapper">
                   <div className="inner">
                     <p>
-                      O investimento de sucesso não é apenas sobre sorte. Envolve pesquisa, planejamento estratégico e uma compreensão clara dos mercados. Aqui estão algumas estratégias comprovadas que podem ajudá-lo a alcançar o sucesso em seus investimentos.
+                      O sucesso financeiro não é apenas uma questão de sorte. Envolve planejamento estratégico e uma compreensão clara dos produtos financeiros disponíveis. Aqui estão algumas estratégias comprovadas que podem ajudá-lo a alcançar sucesso com segurança e tranquilidade.
                     </p>
                     <div className="thumbnail">
                       <img src={imgOne} alt="Blog Images" />
                     </div>
                     <p className="mt--40">
-                      Primeiramente, diversifique seu portfólio. Não coloque todos os ovos em uma única cesta. Investir em diferentes classes de ativos pode ajudar a mitigar riscos e maximizar retornos.
+                      Primeira orientação é definir metas claras e realistas. Saber o que você quer alcançar com seu dinheiro acumulado e tomar decisões mais informadas, disciplinadas e realistas.
                     </p>
                     <p>
-                      Além disso, é essencial manter-se informado sobre as tendências de mercado e eventos econômicos que podem impactar seus investimentos. A educação contínua e a adaptação às mudanças são cruciais.
+                      "Profit First": Pague a você primeiro, guarde mensalmente um valor entre 10% a 20% de seu rendimento mensal. Os juros compostos, somados ao fator tempo, farão a bola de neve crescer de forma vertiginosa.
                     </p>
                     <blockquote className="rn-blog-quote">
-                      "A diversificação é a única estratégia gratuita de mitigação de riscos que os investidores têm à disposição." - Warren Buffett
+                      "A segurança financeira é alcançada através de estratégias inteligentes e produtos financeiros confiáveis." - Autor Desconhecido
                     </blockquote>
                     <p>
-                      Outra dica é definir metas claras e realistas. Saber o que você quer alcançar com seus investimentos pode ajudá-lo a tomar decisões mais informadas e disciplinadas.
+                      Lembre-se de que o sucesso financeiro não acontece da noite para o dia. Requer paciência, diligência e uma abordagem disciplinada. Com as estratégias certas, você pode construir um patrimônio sonhado e atingir seus objetivos financeiros.
+                    </p>
+                    <p>
+                      Segundo, considere produtos de acumulação financeira indexados na Bolsa de Valores (S&P 500), mas com piso zero. Isso significa que, mesmo que o mercado caia, você não terá perdas. Este tipo de produto oferece uma oportunidade de crescimento enquanto protege seu capital contra ações judiciais e falências.
+                    </p>
+                    <p>
+                      Terceiro, há instrumentos financeiros que podem oferecer renda vitalícia garantida e livre de impostos, fornecendo segurança financeira no longo prazo, independentemente das flutuações do mercado.
                     </p>
                     <div className="blog-single-list-wrapper d-flex flex-wrap">
                       <div className="thumbnail">
@@ -104,14 +110,16 @@ class BlogEstrategia extends Component {
                           <li>Invista regularmente, mesmo que sejam pequenos montantes.</li>
                           <li>Reinvista seus dividendos e juros para acelerar o crescimento.</li>
                           <li>Evite tomar decisões impulsivas baseadas em emoções.</li>
-                          <li>Considere os custos e taxas associados a cada investimento.</li>
-                          <li>Faça uso de ferramentas e consultoria financeira, se necessário.</li>
+                          <li>Considere os custos e taxas associados a cada produto financeiro.</li>
+                          <li>Consulte um agente financeiro</li>
                         </ul>
                       </div>
                     </div>
+
                     <p className="mt--25 mt_sm--5">
-                      Lembre-se de que o sucesso no investimento não acontece da noite para o dia. Requer paciência, diligência e uma abordagem disciplinada. Com as estratégias certas, você pode construir um portfólio robusto e atingir seus objetivos financeiros.
+                      Com essas dicas, você estará no caminho certo para gerenciar seu patrimônio de maneira eficiente e alcançar suas metas financeiras.
                     </p>
+                    
                     <div className="video-wrapper position-relative mb--40">
                       <div className="thumbnail">
                         <img src={imgOne} alt="Blog Images" />
@@ -130,7 +138,7 @@ class BlogEstrategia extends Component {
                       </button>
                     </div>
                     <p className="mb--0">
-                      Esperamos que estas dicas ajudem você a trilhar um caminho de sucesso em seus investimentos. Continue aprendendo e ajustando suas estratégias conforme necessário.
+                      Esperamos que estas dicas ajudem você a trilhar um caminho de sucesso financeiro. Continue aprendendo e ajustando suas estratégias conforme necessário.
                     </p>
                   </div>
                 </div>
