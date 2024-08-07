@@ -335,9 +335,10 @@ Custom Row
             padding-right: 15px !important;
         }
 
+        //Era 15, mas foi colocado 0 para ficar com melhor espaçamento
         @media #{$sm-layout} {
-            padding-left: 15px !important;
-            padding-right: 15px !important;
+            padding-left: 0px !important;
+            padding-right: 0px !important;
         }
     }
 }
