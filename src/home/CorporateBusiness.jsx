@@ -307,7 +307,8 @@ class CorporateBusiness extends Component {
         <div className="rn-blog-area pt--120 pb--80 bg_color--1">
           <div className="container">
             <div className="row align-items-end">
-              <div className="col-lg-12">
+              {/* Antes não tinha o px-0, mas foi colocado para ficar de acordo com o espaçamento do body */}
+              <div className="col-lg-12 px-0">
                 <div className="section-title service-style--3 text-center">
                   <h2 className="title">Blog de Finanças</h2>
                   <p>
