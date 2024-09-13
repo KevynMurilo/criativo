@@ -15,10 +15,8 @@ import corporate03 from "../assets/images/featured/corporate-03.jpg";
 import { FaChalkboardTeacher, FaShieldAlt, FaUmbrella } from "react-icons/fa";
 
 import {
-  FiLayers,
   FiChevronUp,
   FiCheck,
-  FiSmartphone 
 } from "react-icons/fi";
 
 import about from "../assets/images/about/about.jpg";
@@ -26,22 +24,22 @@ import about2 from "../assets/images/about/about-3.png";
 
 const SlideList = [
   {
-    textPosition: "text-right",
-    bgImage: "bg_image--32",
-    category: "",
-    title: "Serviços financeiros",
-    description:
-      "Ofereço serviços financeiros especializados com rendimentos garantidos e sem riscos.",
-    buttonText: "Entre em Contato",
-    buttonLink: "/contact",
-  },
-  {
     textPosition: "text-left",
     bgImage: "bg_image--31",
     category: "",
     title: "Educação Financeira",
     description:
       "Ajudo você a organizar suas finanças com segurança e obter rendimentos sólidos e garantidos, sem perdas.",
+    buttonText: "Entre em Contato",
+    buttonLink: "/contact",
+  },
+  {
+    textPosition: "text-right",
+    bgImage: "bg_image--32",
+    category: "",
+    title: "Serviços financeiros",
+    description:
+      "Ofereço serviços financeiros especializados com rendimentos garantidos e sem riscos.",
     buttonText: "Entre em Contato",
     buttonLink: "/contact",
   },
