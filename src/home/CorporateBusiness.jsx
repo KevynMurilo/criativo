@@ -68,25 +68,6 @@ const ServiceListOne = [
 ];
 
 
-const starndardService = [
-  {
-    image: corporate01,
-    title: "Educação Financeira",
-    description: "Oferecemos educação financeira para que você possa entender e otimizar suas finanças pessoais com segurança.",
-  },
-  {
-    image: corporate02,
-    title: "Planejamento Seguro",
-    description: "Serviços de consultoria para garantir que sua família esteja protegida e você tenha um futuro promissor, sem perdas e de forma vitalícia.",
-  },
-  {
-    image: corporate03,
-    title: "Aposentadoria",
-    description: "Oferecemos produtos para aposentadoria com renda garantida e regulada pelo governo federal.",
-  },
-];
-
-
 class CorporateBusiness extends Component {
   constructor() {
     super();
