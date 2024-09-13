@@ -81,18 +81,20 @@ class CorporateBusiness extends Component {
   }
   render() {
     var namesItemOne = [
-      "Análise dos Dados Financeiros do cliente: Fundação, Acumulação e Distribuição",
-      "Otimização dos Recursos Financeiros disponíveis e dos não disponíveis",
-      "Mitos e Verdades sobre como os juros compostos podem trabalhar",
-      "Estratégias garantidas para Maximização dos rendimentos, com perdas zero",
+      "Análise Financeira: Fundação, Acumulação e Distribuição",
+      "Otimização dos Recursos Financeiros",
+      "Mitos e Verdades sobre Juros Compostos",
+      "Estratégias para Maximização dos Rendimentos",
     ];
+    
     var namesItemTwo = [
-      "Evidências de Sucesso em Serviços Financeiros prestados",
-      "Ações Recomendadas para Proteção eficiente do patrimônio acumulado",
-      "Regra do 72 de Albert Einstein atuando sobre os valores acumulados",
-      "Como deixar Herança para enriquecer as futuras gerações",
-      "Como evitar a falência financeira familiar no caso de quem trás renda para casa tiver doença grave",
+      "Evidências de Sucesso em Serviços Financeiros",
+      "Ações para Proteção do Patrimônio",
+      "Regra do 72 de Albert Einstein",
+      "Como Deixar Herança para Futuras Gerações",
+      "Como Evitar Falência Financeira Familiar",
     ];
+    
 
     const PostList = BlogContent.slice(0, 3);
 
@@ -213,74 +215,70 @@ class CorporateBusiness extends Component {
         {/* End About Area  */}
 
         {/* Start About Area  */}
-        <div className="rn-about-area ptb--120 bg_color--5">
-          <div className="container">
-            <div className="row row--35 align-items-center">
-              <div className="col-lg-6 order-2 order-lg-1">
-                <div className="about-inner inner">
-                  <div className="section-title">
-                    <h2 className="title">O Que Ofereço</h2>
-                    <p className="description">
-                      Ofereço Educação  Financeira para brasileiros que moram nos Estados Unidos e no Brasil de forma personalizada e que atendam as suas necessidades individuais e superam suas expectativas. Com ampla experiência e dedicação, proporciono a melhor abordagem para otimizar suas economias e alcançar seus objetivos a longo prazo
-                    </p>
-                  </div>
-                  <div className="mt--30">
-                    <h4>Áreas de Expertise</h4>
-                    <ul className="list-style--1">
-                      {namesItemOne.map((name, index) => {
-                        return (
-                          <li key={index}>
-                            <FiCheck /> {name}
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
-                  <div className="mt--30">
-                    <h4>Insights e Recomendações</h4>
-                    <ul className="list-style--1">
-                      {namesItemTwo.map((name, index) => {
-                        return (
-                          <li key={index}>
-                            <FiCheck /> {name}
-                          </li>
-                        );
-                      })}
-                    </ul>
-                    <div className="section-title mt--30">
+          <div className="rn-about-area ptb--120 bg_color--5">
+            <div className="container">
+              <div className="row row--35 align-items-center">
+                <div className="col-lg-6 order-2 order-lg-1">
+                  <div className="about-inner inner">
+                    <div className="section-title">
+                      <h2 className="title">O Que Ofereço</h2>
                       <p className="description">
-                        Veja ao lado um depoimento sobre como minhas soluções financeiras transformaram as finanças de um cliente.
-                    </p>
+                        Ofereço Educação Financeira personalizada para brasileiros nos EUA e no Brasil. Com experiência e dedicação, ajudo a otimizar economias e alcançar objetivos a longo prazo.
+                      </p>
                     </div>
-                    
+                    <div className="mt--30">
+                      <h4>Áreas de Expertise</h4>
+                      <ul className="list-style--1">
+                        {namesItemOne.map((name, index) => (
+                          <li key={index}>
+                            <FiCheck /> {name}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="mt--30">
+                      <h4>Insights e Recomendações</h4>
+                      <ul className="list-style--1">
+                        {namesItemTwo.map((name, index) => (
+                          <li key={index}>
+                            <FiCheck /> {name}
+                          </li>
+                        ))}
+                      </ul>
+                      <div className="section-title mt--30">
+                        <p className="description">
+                          Veja um depoimento sobre como minhas soluções financeiras transformaram as finanças de um cliente.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-6 order-1 order-lg-2">
-                <div className="thumbnail position-relative">
-                  <img
-                    className="w-100"
-                    src={about2}
-                    alt="About Images"
-                  />
-                  <ModalVideo
-                    channel="youtube"
-                    isOpen={this.state.isOpen}
-                    videoId="a0a6y605DNk"
-                    onClose={() => this.setState({ isOpen: false })}
-                  />
-                  <button
-                    className="video-popup position-top-center theme-color"
-                    onClick={this.openModal}
-                  >
-                    <span className="play-icon"></span>
-                  </button>
+                <div className="col-lg-6 order-1 order-lg-2">
+                  <div className="thumbnail position-relative">
+                    <img
+                      className="w-100"
+                      src={about2}
+                      alt="About Images"
+                    />
+                    <ModalVideo
+                      channel="youtube"
+                      isOpen={this.state.isOpen}
+                      videoId="a0a6y605DNk"
+                      onClose={() => this.setState({ isOpen: false })}
+                    />
+                    <button
+                      className="video-popup position-top-center theme-color"
+                      onClick={this.openModal}
+                    >
+                      <span className="play-icon"></span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        {/* End About Area  */}
+          {/* End About Area */}
+
 
         {/* Start Blog Area */}
         <div className="rn-blog-area pt--120 pb--80 bg_color--1">
