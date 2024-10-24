@@ -1,16 +1,12 @@
 import React, { Component } from "react";
 import {
-  FaTwitter,
   FaInstagram,
-  FaFacebookF,
   FaLinkedinIn,
 } from "react-icons/fa";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/" },
+  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/luiza-simazaki-13073b1a5/" },
   { Social: <FaInstagram />, link: "https://www.instagram.com/luizasimazaki/" },
-  { Social: <FaTwitter />, link: "https://twitter.com/" },
 ];
 
 class Footer extends Component {

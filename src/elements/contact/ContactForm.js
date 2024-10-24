@@ -1,41 +1,54 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
 
-const Result = () => {
+const Result = ({ message }) => {
     return (
-        <p className="success-message">Sua mensagem foi enviada com sucesso. Entrarei em contato em breve.</p>
+        <p className="success-message">{message}</p>
     );
 }
 
 function ContactForm() {
-    const [result, showResult] = useState(false);
+    const [loading, setLoading] = useState(false);
+    const [resultMessage, setResultMessage] = useState('');
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs
-            .sendForm(
-                'service_p4x3hv8',
-                'template_jgfr42f',
-                e.target,
-                'user_jrfTH2e0Ely35ZCVFdT9S'
-            )
-            .then((result) => {
-                console.log(result.text);
+        setLoading(true);
+        setResultMessage('');
+
+        const form = e.target;
+        const formData = new FormData(form);
+        
+        fetch('https://formsubmit.co/ajax/luizasimazaki@gmail.com', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                Accept: 'application/json',
             },
-            (error) => {
-                console.log(error.text);
+        })
+        .then((response) => {
+            setLoading(false);
+            if (response.ok) {
+                setResultMessage('Sua mensagem foi enviada com sucesso. Entrarei em contato em breve.');
+                form.reset();
+
+                // Ocultar mensagem após 5 segundos
+                setTimeout(() => {
+                    setResultMessage('');
+                }, 5000);
+            } else {
+                setResultMessage('Erro ao enviar o formulário. Tente novamente.');
+                console.error('Erro ao enviar o formulário');
             }
-        );
-        e.target.reset();
-        showResult(true);
+        })
+        .catch((error) => {
+            setLoading(false);
+            setResultMessage('Erro ao enviar o formulário. Tente novamente mais tarde.');
+            console.error('Erro:', error);
+        });
     };
 
-    setTimeout(() => {
-        showResult(false);
-    }, 5000);
-
     return (
-        <form action="" onSubmit={sendEmail}>
+        <form onSubmit={sendEmail}>
             <div className="rn-form-group">
                 <input 
                     type="text"
@@ -81,11 +94,13 @@ function ContactForm() {
             </div>
 
             <div className="rn-form-group">
-                <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Enviar Agora</button>
+                <button className="rn-button-style--2 btn-solid" type="submit" disabled={loading}>
+                    {loading ? 'Enviando...' : 'Enviar Agora'}
+                </button>
             </div> 
 
             <div className="rn-form-group">
-                {result ? <Result /> : null}
+                {resultMessage && <Result message={resultMessage} />}
             </div> 
         </form>
     );
