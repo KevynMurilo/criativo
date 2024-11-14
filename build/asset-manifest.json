@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.259aa711.css",
-    "main.js": "/static/js/main.5c96ed59.js",
+    "main.css": "/static/css/main.dcd38461.css",
+    "main.js": "/static/js/main.7411de58.js",
     "static/media/video.mp4": "/static/media/video.f8f586d853f3b91debbe.mp4",
     "static/media/gallery.png": "/static/media/gallery.fa093e601cc194aa826b.png",
-    "static/media/bg-image-31.jpg": "/static/media/bg-image-31.ee83b2835b54e09e3909.jpg",
+    "static/media/bg-image-31.jpg": "/static/media/bg-image-31.2dde3abd3d74d2ac9025.jpg",
     "static/media/bg-image-34.jpg": "/static/media/bg-image-34.1b4fd5bdaa63818b9ec5.jpg",
     "static/media/finding-us-01.png": "/static/media/finding-us-01.a8721ce805c4a392db9c.png",
     "static/media/creative-portfolio.png": "/static/media/creative-portfolio.bfc63256663749c06d77.png",
     "static/media/interior-design.png": "/static/media/interior-design.1cd2659210feb2431bd6.png",
     "static/media/bg-image-count.jpg": "/static/media/bg-image-count.9f1c77117a7d80025781.jpg",
     "static/media/bg-image-32.jpg": "/static/media/bg-image-32.fc1b310bae7dd0b76ef9.jpg",
-    "static/media/about.jpg": "/static/media/about.52c96f594d82f169c6ac.jpg",
+    "static/media/about2.jpg": "/static/media/about2.598f7c5aa08abf73485c.jpg",
     "static/media/corporate-business.png": "/static/media/corporate-business.926d3e9b8c2d098d61b7.png",
     "static/media/bg-image-35.png": "/static/media/bg-image-35.70778b0ef80a547b19f4.png",
     "static/media/portfolio-details.png": "/static/media/portfolio-details.34ff5eefda2441c3831b.png",
@@ -126,11 +126,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.259aa711.css.map": "/static/css/main.259aa711.css.map",
-    "main.5c96ed59.js.map": "/static/js/main.5c96ed59.js.map"
+    "main.dcd38461.css.map": "/static/css/main.dcd38461.css.map",
+    "main.7411de58.js.map": "/static/js/main.7411de58.js.map"
   },
   "entrypoints": [
-    "static/css/main.259aa711.css",
-    "static/js/main.5c96ed59.js"
+    "static/css/main.dcd38461.css",
+    "static/js/main.7411de58.js"
   ]
 }
