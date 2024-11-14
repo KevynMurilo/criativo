@@ -122,7 +122,7 @@ class BlogEconomia extends Component {
                       <div className="thumbnail">
                         <img src={imgOne} alt="Vídeo sobre Economia" />
                       </div>
-                      <ModalVideo
+                      {/* <ModalVideo
                         channel="youtube"
                         isOpen={this.state.isOpen}
                         videoId="ZOoVOfieAF8"
@@ -133,7 +133,7 @@ class BlogEconomia extends Component {
                         onClick={this.openModal}
                       >
                         <span className="play-icon"></span>
-                      </button>
+                      </button> */}
                     </div>
                     <p className="mb--0">
                       Acompanhar as tendências econômicas é uma parte essencial da gestão financeira e da estratégia de proteção do patrimônio e acumulaçãode riquezas. Manter-se informado e adaptável é fundamental para navegar com sucesso em um cenário econômico em constante evolução.

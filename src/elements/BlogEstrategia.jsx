@@ -116,7 +116,7 @@ class BlogEstrategia extends Component {
                       <div className="thumbnail">
                         <img src={imgOne} alt="Blog Images" />
                       </div>
-                      <ModalVideo
+                      {/* <ModalVideo
                         channel="youtube"
                         isOpen={this.state.isOpen}
                         videoId="ZOoVOfieAF8"
@@ -127,7 +127,7 @@ class BlogEstrategia extends Component {
                         onClick={this.openModal}
                       >
                         <span className="play-icon"></span>
-                      </button>
+                      </button> */}
                     </div>
                     <p className="mb--0">
                       Esperamos que estas dicas ajudem você a trilhar um caminho de sucesso financeiro. Continue aprendendo e ajustando suas estratégias conforme necessário.

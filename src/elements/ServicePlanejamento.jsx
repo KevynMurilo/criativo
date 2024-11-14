@@ -114,7 +114,7 @@ class ServicePlanejamento extends Component {
                             src={serviceImg2}
                             alt="Service Images"
                           />
-                          <ModalVideo
+                          {/* <ModalVideo
                             channel="youtube"
                             isOpen={this.state.isOpen}
                             videoId="ZOoVOfieAF8"
@@ -125,7 +125,7 @@ class ServicePlanejamento extends Component {
                             onClick={this.openModal}
                           >
                             <span className="play-icon"></span>
-                          </button>
+                          </button> */}
                         </div>
                       </div>
                     </div>

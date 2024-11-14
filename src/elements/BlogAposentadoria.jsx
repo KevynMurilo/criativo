@@ -121,7 +121,7 @@ class BlogAposentadoria extends Component {
                       <div className="thumbnail">
                         <img src={imgOne} alt="Blog Images" />
                       </div>
-                      <ModalVideo
+                      {/* <ModalVideo
                         channel="youtube"
                         isOpen={this.state.isOpen}
                         videoId="ZOoVOfieAF8"
@@ -132,7 +132,7 @@ class BlogAposentadoria extends Component {
                         onClick={this.openModal}
                       >
                         <span className="play-icon"></span>
-                      </button>
+                      </button> */}
                     </div>
                     <p className="mb--0">
                       Continue se educando sobre finanças e aposentadoria para tomar decisões informadas e eficazes. Uma boa preparação agora pode resultar em uma aposentadoria mais confortável no futuro.

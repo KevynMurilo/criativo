@@ -119,7 +119,7 @@ class BlogPatrimonio extends Component {
                       <div className="thumbnail">
                         <img src={imgOne} alt="Blog Images" />
                       </div>
-                      <ModalVideo
+                      {/* <ModalVideo
                         channel="youtube"
                         isOpen={this.state.isOpen}
                         videoId="ZOoVOfieAF8"
@@ -130,7 +130,7 @@ class BlogPatrimonio extends Component {
                         onClick={this.openModal}
                       >
                         <span className="play-icon"></span>
-                      </button>
+                      </button> */}
                     </div>
                     <p className="mb--0">
                       Lembre-se, a chave para o sucesso financeiro é a disciplina e a educação contínua. Com o tempo, você verá os frutos do seu esforço.
