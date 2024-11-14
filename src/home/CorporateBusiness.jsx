@@ -16,7 +16,7 @@ import {
   FiCheck,
 } from "react-icons/fi";
 
-import about from "../assets/images/about/about.jpg";
+import about from "../assets/images/about/about2.jpg";
 import about2 from "../assets/images/about/about-3.png";
 
 const SlideList = [
