@@ -50,7 +50,7 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Contato com número de telefone</h4>
-                                        <p><a href="tel:+1 7862337681">+1 (786) 233-7681</a></p>
+                                        <p><a href="tel:+1 7862337681">+1 (561) 560-2537</a></p>
                                         <p>Atendimento pelo WhatsApp</p>
                                     </div>
                                 </div>

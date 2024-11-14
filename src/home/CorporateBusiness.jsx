@@ -9,9 +9,6 @@ import FooterTwo from "../component/footer/FooterTwo";
 import CallAction from "../elements/callaction/CallAction";
 import Accordion01 from "../elements/Accordion";
 import Helmet from "../component/common/Helmet";
-import corporate01 from "../assets/images/featured/corporate-01.jpg";
-import corporate02 from "../assets/images/featured/corporate-02.jpg";
-import corporate03 from "../assets/images/featured/corporate-03.jpg";
 import { FaChalkboardTeacher, FaShieldAlt, FaUmbrella } from "react-icons/fa";
 
 import {
@@ -19,7 +16,7 @@ import {
   FiCheck,
 } from "react-icons/fi";
 
-import about from "../assets/images/about/about.jpg";
+import about from "../assets/images/about/about2.jpg";
 import about2 from "../assets/images/about/about-3.png";
 
 const SlideList = [
