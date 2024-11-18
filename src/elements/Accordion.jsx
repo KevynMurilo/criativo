@@ -41,12 +41,12 @@ class Accordion01 extends Component {
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            Afiliada
+                            Afiliação
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <p>
-                            Sou associada à 5 Rings Financial, que atua na indústria financeira há mais de 20 anos e representa empresas com mais de 150 anos no setor. O CEO da empresa é Mike Wilk, e a sede está localizada em Denver, Colorado.
+                            Sou associada à 5 Rings Financial, que atua na indústria financeira há mais de 20 anos educando americanos e imigrantes a fazer melhor gestão de suas finanças e represento empresas com mais de 150 anos no setor todas muito bem avaliadas no mercado.
                         </p>
                     </AccordionItemPanel>
                 </AccordionItem>

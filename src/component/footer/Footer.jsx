@@ -59,7 +59,7 @@ class Footer extends Component {
                             <a href="mailto:luizasimazaki@gmail.com">luizasimazaki@gmail.com</a>
                           </li>
                           <li>
-                          <a href="tel:+1 7862337681">+1 (786) 233-7681</a>
+                          <a href="tel:+1 7862337681">+1 (561) 560-2537</a>
                           </li>
                         </ul>
 

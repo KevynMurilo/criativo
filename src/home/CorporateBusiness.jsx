@@ -192,7 +192,7 @@ class CorporateBusiness extends Component {
                   <div className="section-title">
                     <h2 className="title">Sobre Mim</h2>
                     <p>
-                      Meu nome é Luiza Simazaki e sou agente de serviços financeiros licenciada. Meu objetivo é proporcionar, através da Educação Financeira, proteção à família e a quem traz renda para casa, além de escolher produtos de acumulação que proporcionarão renda garantida, sem perdas e isento de pagar imposto de renda na retirada mensal.
+                      Meu nome é Luiza Simazaki e sou agente de serviços financeiros licenciada. Meu objetivo é proporcionar, através da Educação Financeira, proteção à família e a quem traz renda para casa, além de escolher produtos de acumulação que proporcionarão renda garantida, sem perdas e isento de pagar imposto de renda.
                     </p>
                   </div>
                   <div className="accordion-wrapper mt--30">
